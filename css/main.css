@@ -12,7 +12,6 @@ div,p,body,header,footer,section,article,nav
 
 p
 {
-	font-size: 20px;
 	line-height: 30px;
 	color: #fff;
 	text-align: center;
@@ -29,7 +28,7 @@ body
 }
 
 
-#topBar
+.topBar
 {
 	background-color: white;
 	height: 20px;
@@ -42,7 +41,14 @@ body
 }
 
 
-#mainNav
+.headerRiver
+{
+	margin-left: auto;
+	width: 1400px;
+	height: 400px;
+}
+
+.mainNav
 {
 	display: flex;
 	flex-direction: column;
@@ -51,15 +57,7 @@ body
 }
 
 
-#headerRiver
-{
-	margin-left: auto;
-	width: 1400px;
-	height: 400px;
-}
-
-
-#mainNav ul
+.mainNav ul
 {
 	position: absolute;
 	display: flex;
@@ -67,7 +65,7 @@ body
 	margin-top: 425px;
 }
 
-#mainNav ul li a
+.mainNav ul li a
 {
 	margin-left: 62px;
 	justify-content: space-between;
@@ -75,7 +73,7 @@ body
 }
 
 
-#mainNav ul 
+.mainNav ul 
 {
   margin-left: 240px;
   position: absolute;
@@ -85,7 +83,7 @@ body
 }
 
 
-#mainNav p
+.mainNav p
 {
 	color: black;
 	font-size: 25px;
@@ -94,7 +92,7 @@ body
 }
 
 
-#navBackground
+.navBackground
 {
 	margin-top: 0px;
 	background: #1d8a99;
@@ -105,7 +103,7 @@ body
 }
 
 
-#logo
+.logo
 {
 	position: absolute;
 	width: 203px;
@@ -114,7 +112,7 @@ body
 	margin-left: 100px;
 }
 
-#mainInfo
+.mainInfo
 {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -123,7 +121,7 @@ body
 }
 
 
-#infoBackground
+.infoBackground
 {
 	background: #464747;
 	width: 1400px;
@@ -132,20 +130,20 @@ body
 }
 
 
-#riverWork
+.riverWork
 {
 	position: absolute;
 	border-radius: 25px;
 	border: 5px solid white;
-	margin-left: 30px;s
-	width: 71px;
+	margin-left: 30px;
+	width: 571px;
 	height: 563px;
 	margin-top: 30px;
 
 }
 
 
-#generalMeetings p
+.generalMeetings 
 {
 	position: absolute;
 	color: black;
@@ -157,7 +155,7 @@ body
 }
 
 
-#newYear
+.newYear
 {
 	position: absolute;
 	margin-left: 611px;
@@ -171,7 +169,7 @@ body
 }
 
 
-#newyearTitle p
+.newyearTitle 
 {
 	position: absolute;
 	margin-top: 160px;
@@ -179,696 +177,116 @@ body
 	font-family: Apple Chancery, cursive;
 }
 
-#newyearTitle p
+.newyearTitle 
 {
 	font-size: 36px;
 	color: black;
 }
 
 
-#newyearText p
+.newyearText p
 {
 	flex-direction: column;
 }
 
 
-#newyearText p
+.newyearText p
 {
 	position: absolute;
 	margin-top: 210px;
 	margin-left: 690px;
 	margin-right: 120px;
 	color: black;
+	font-size: 20px;
 }
 
-#newsInfo
+.membership
 {
-	margin-top: 40px;
-	margin-left: 31px;
-	width: 1380px;
-	height: 558px;
-	background: black;
+	background-color: #cdcdcd; 
+	background-image: linear-gradient(grey, #cdcdcd);
+	width: 540px;
+	height: 526px;
+	margin-top: 750px;
+	margin-left: 75px;
 }
 
-
-
-#membershipFundrasing
+.fundraising
 {
-	display: flex;
-	flex-direction: row;
+	background-color: #cdcdcd; 
+	background-image: linear-gradient(grey, #cdcdcd);
+	width: 540px;
+	height: 526px;
+	margin-top: -526px;
+	margin-left: 785px;
 }
 
 
-#memerbership
-{
-	position: absolute;
-	background: black;
-	width: 596px;
-	height: 666px;
-	margin-left: 31px;
-	margin-top: 40px;
-}
-
-
-#fundrasing
+.membershipTitle 
 {
 	position: absolute;
-	background: black;
-	width: 596px;
-	height: 666px;
-	margin-left: 820px;
-	margin-top: 40px;
+	margin-top: -575px;
+	margin-left: 230px;
+	font-family: Apple Chancery, cursive;
 }
 
-
-#banner
+.membershipTitle 
 {
-	display: flex;
-	flex-direction: row;
+	font-size: 36px;
+	color: white;
 }
 
 
-#supportersBanner
+.fundraisingTitle 
 {
-	position: absolute;
-	background: black;
-	width: 1385px;
-	height: 74px;
-	margin-left: 31px;
-	margin-top: 800px;
+	font-size: 36px;
+	color: white;
 }
 
 
-#supportersLogo
+.fundraisingTitle 
 {
 	position: absolute;
-	background: black;
-	width: 379px;
-	height: 557px;
-	margin-left: 31px;
-	margin-top: 950px;
+	margin-top: -575px;
+	margin-left: 950px;
+	font-family: Apple Chancery, cursive;	
 }
 
 
-#supporterLogo
+.memebershipText p
 {
 	position: absolute;
-	background: black;
-	width: 379px;
-	height: 557px;
-	margin-left: 533px;
-	margin-top: 950px;
+	margin-top: -475px;
+	margin-left: 100px;
+	margin-right: 850px;
 }
 
 
-#SupportersLogo
+.memebershipText p
 {
-	position: absolute;
-	background: black;
-	width: 379px;
-	height: 557px;
-	margin-left: 1040px;
-	margin-top: 950px;
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
 }
 
 
-
-#supporters
-{
-	display: flex;
-	flex-direction: row;
-}
-
-
-#sptlogo
-{
-	position: absolute;
-	background: black;
-	width: 379px;
-	height: 557px;
-	margin-left: 31px;
-	margin-top: 1550px;
-}
-
-
-#suptlogo
-{
-	position: absolute;
-	background: black;
-	width: 379px;
-	height: 557px;
-	margin-left: 533px;
-	margin-top: 1550px;
-}
-
-
-#sptLogo
-{
-	position: absolute;
-	background: black;
-	width: 379px;
-	height: 557px;
-	margin-left: 1040px;
-	margin-top: 1550px;
-}
-
-
-#mainFooter
-{
-    display: flex;
-	flex-direction: row;
-}
-
-
-#footer
-{
-	margin-top: 2200px;
-	margin-left: 31px;
-	width: 1390px;
-	height: 257px;
-	background: black;
-}
-
-
-/*Links Page*/
-
-
-#convoBanner
-{
-    display: flex;
-	flex-direction: row;
-}
-
-
-#ConvoBanner
-{
-	position: absolute;
-	background: black;
-	width: 855px;
-	height: 74px;
-	margin-left: 31px;
-	margin-top: 30px;
-}
-
-
-#ConvoText
-{
-	position: absolute;
-	background: black;
-	width: 314px;
-	height: 706px;
-	margin-left: 31px;
-	margin-top: 142px;
-}
-
-
-#convoText
-{
-	position: absolute;
-	background: black;
-	width: 314px;
-	height: 706px;
-	margin-left: 386px;
-	margin-top: 140px;
-}
-
-
-#conText
-{
-	position: absolute;
-	background: black;
-	width: 314px;
-	height: 706px;
-	margin-left: 740px;
-	margin-top: 140px;
-}
-
-
-#conGroup
-{
-	position: absolute;
-	background: black;
-	width: 314px;
-	height: 706px;
-	margin-left: 1100px;
-	margin-top: 140px;
-}
-
-
-#conservation
-{
-	display: flex;
-	flex-direction: row;
-}
-
-
-#conservationGroup
-{
-	position: absolute;
-	background: black;
-	width: 314px;
-	height: 706px;
-	margin-left: 31px;
-	margin-top: 900px;
-}
-
-
-#convo
-{
-	position: absolute;
-	background: black;
-	width: 314px;
-	height: 706px;
-	margin-left: 386px;
-	margin-top: 900px;
-}
-
-
-#conlogo
-{
-	position: absolute;
-	background: black;
-	width: 314px;
-	height: 706px;
-	margin-left: 740px;
-	margin-top: 900px;
-}
-
-
-#conLogo
-{
-	position: absolute;
-	background: black;
-	width: 314px;
-	height: 706px;
-	margin-left: 1100px;
-	margin-top: 900px;
-}
-
-
-#conservationAuthorities
-{
-	display: flex;
-	flex-direction: row;
-}
-
-
-#authoritiesBanner
+.fundraisingText p
 {
     position: absolute;
-	background: black;
-	width: 855px;
-	height: 74px;
-	margin-left: 31px;
-	margin-top: 1650px;
+	margin-top: -475px;
+	margin-left: 800px;
+	margin-right: 100px;
 }
 
 
-#con
+.fundraisingText p
 {
-	position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 31px;
-	margin-top: 1750px;
-}
-
-
-#cOn
-{
-	position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 386px;
-	margin-top: 1750px;
-}
-
-
-#coN
-{
-	position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 740px;
-	margin-top: 1750px;
-}
-
-
-#CON
-{
-    position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 1100px;
-	margin-top: 1750px;
-}
-
-
-#ConservationAuthorities
-{
-	display: flex;
-	flex-direction: row;
-}
-
-#imagetown
-{
-	position: relative;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 31px;
-	margin-top: 2140px;
-}
-
-
-#imageTown
-{
-	position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 386px;
-	margin-top: 2140px;
-}
-
-
-#ImageTown
-{
-	position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 740px;
-	margin-top: 2140px;
-}
-
-
-#imgTown
-{
-    position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 1100px;
-	margin-top: 2140px;
-}
-
-
-#conservationAuthor
-{
-	display: flex;
-	flex-direction: row;
-}
-
-
-#Imgtown
-{
-	position: relative;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 31px;
-	margin-top: 35px;
-}
-
-
-#ImgTown
-{
-	position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 386px;
-	margin-top: 35px;
-}
-
-
-#ImTown
-{
-    position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 740px;
-	margin-top: 35px;	
-}
-
-
-#imTown
-{
-	position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 1100px;
-	margin-top: 35px;
-}
-
-
-#conserAuthor
-{
-	display: flex;
-	flex-direction: row;
-}
-
-
-#conserimg
-{
-	position: relative;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 31px;
-	margin-top: 35px;
-}
-
-
-#Conserimg
-{
-	position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 386px;
-	margin-top: 35px;
-}
-
-
-#conserImg
-{
-	position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 740px;
-	margin-top: 35px;	
-}
-
-
-#ConserImg
-{
-    position: absolute;
-	background: black;
-	width: 318px;
-	height: 358px;
-	margin-left: 1100px;
-	margin-top: 35px;	
-}
-
-
-#GovermentEntities
-{
-	display: flex;
-	flex-direction: row;
-}
-
-
-#entitiesBanner
-{
-	position: absolute;
-	background: black;
-	width: 855px;
-	height: 74px;
-	margin-left: 31px;
-	margin-top: 60px;
-}
-
-
-
-#goverLogo
-{
-	position: relative;
-	background: black;
-	width: 317px;
-	height: 354px;
-	margin-left: 31px;
-	margin-top: 170px;
-}
-
-
-
-#Goverlogo
-{
-	position: absolute;
-	background: black;
-	width: 317px;
-	height: 354px;
-	margin-left: 386px;
-	margin-top: 170px;
-}
-
-
-
-#governmentlogo
-{
-	position: absolute;
-	background: black;
-	width: 317px;
-	height: 354px;
-	margin-left: 740px;
-	margin-top: 170px;	
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
 
 }
 
-
-#GovernmentLogo
+.button1 
 {
-	position: absolute;
-	background: black;
-	width: 317px;
-	height: 354px;
-	margin-left: 1100px;
-	margin-top: 170px;
-}
-
-
-
-#FishingLinks
-{
-	display: flex;
-	flex-direction: row;
-}
-
-
-#fishingLinks
-{
-	position: absolute;
-	background: black;
-	width: 855px;
-	height: 74px;
-	margin-left: 31px;
-	margin-top: 50px;
-}
-
-
-
-#fish
-{
-	position: relative;
-	background: black;
-	width: 317px;
-	height: 703px;
-	margin-left: 31px;
-	margin-top: 160px;
-}
-
-
-#fishinglinks
-{
-	position: absolute;
-	background: black;
-	width: 317px;
-	height: 703px;
-	margin-left: 386px;
-	margin-top: 160px;
-}
-
-
-
-#fishLinks
-{
-    position: absolute;
-	background: black;
-	width: 317px;
-	height: 703px;
-	margin-left: 740px;
-	margin-top: 160px;		
-}
-
-
-
-#Fishlinks
-{
-	position: absolute;
-	background: black;
-	width: 317px;
-	height: 703px;
-	margin-left: 1100px;
-	margin-top: 160px;
-}
-
-
-
-#fishRelated
-{
-	position: absolute;
-	background: black;
-	width: 317px;
-	height: 703px;
-	margin-left: 31px;
-	margin-top: 900px;
-}
-
-
-#Fishrelated
-{
-	position: absolute;
-	background: black;
-	width: 317px;
-	height: 703px;
-	margin-left: 386px;
-	margin-top: 900px;
-}
-
-
-#fishingrel
-{
-	position: absolute;
-	background: black;
-	width: 317px;
-	height: 703px;
-	margin-left: 740px;
-	margin-top: 900px;	
-}
-
-
-#fishrelated
-{
-	position: absolute;
-	background: black;
-	width: 317px;
-	height: 703px;
-	margin-left: 1100px;
-	margin-top: 900px;
-}
-
-
-#MainFooter
-{
-	display: flex;
-	flex-direction: row;
-}
-
-
-#Footer
-{
-	margin-top: 800px;
-	margin-left: 31px;
-	width: 1390px;
-	height: 257px;
-	background: black;
+	margin-top: 100px;
 }
