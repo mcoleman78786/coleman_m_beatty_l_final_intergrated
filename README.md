@@ -15,3 +15,7 @@ created html for all pages.
 added scattfolds to html.page and links.page.
 
 Added wireframes and PDFS.
+
+Added Design psd and added images.
+
+Started working index.html page.
