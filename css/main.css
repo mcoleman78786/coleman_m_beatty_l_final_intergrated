@@ -31,7 +31,7 @@ body
 
 #topBar
 {
-	background-color: #000;
+	background-color: white;
 	height: 20px;
 }
 
@@ -45,26 +45,161 @@ body
 #mainNav
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 
-#nav
+#headerRiver
 {
-	margin-top: 10px;
-	margin-left: 31px;
-	width: 1380px;
-	height: 460px;
-	background: black;
+	margin-left: auto;
+	width: 1400px;
+	height: 400px;
 }
 
+
+#mainNav ul
+{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	margin-top: 425px;
+}
+
+#mainNav ul li a
+{
+	margin-left: 62px;
+	justify-content: space-between;
+	color: white;
+}
+
+
+#mainNav ul 
+{
+  margin-left: 240px;
+  position: absolute;
+  list-style-type: none;
+  font-size: 25px;
+  font-family: Apple Chancery, cursive;
+}
+
+
+#mainNav p
+{
+	color: black;
+	font-size: 25px;
+	margin-top: 900px;
+	margin-left: 700px;
+}
+
+
+#navBackground
+{
+	margin-top: 0px;
+	background: #1d8a99;
+	width: 1400px;
+	height: 76px;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 2px solid white;
+}
+
+
+#logo
+{
+	position: absolute;
+	width: 203px;
+	height: 180px;
+	margin-top: 120px;
+	margin-left: 100px;
+}
 
 #mainInfo
 {
+	margin-left: 20px;
+	margin-right: 20px;
 	display: flex;
 	flex-direction: row;
 }
 
+
+#infoBackground
+{
+	background: #464747;
+	width: 1400px;
+	height: 3432px;
+	border-radius: 20px;
+}
+
+
+#riverWork
+{
+	position: absolute;
+	border-radius: 25px;
+	border: 5px solid white;
+	margin-left: 30px;s
+	width: 71px;
+	height: 563px;
+	margin-top: 30px;
+
+}
+
+
+#generalMeetings p
+{
+	position: absolute;
+	color: black;
+	margin-top: 80px;
+	margin-left: 630px;
+	font-size: 36px;
+	color: white;
+	font-family: Apple Chancery, cursive;
+}
+
+
+#newYear
+{
+	position: absolute;
+	margin-left: 611px;
+	margin-top: 130px;
+	width: 740px;
+	height: 443px;
+	background-color: #cdcdcd; 
+	border-radius: 0px 10px 90px 0px;
+	background-image: linear-gradient(grey, #cdcdcd);
+	border: 10px solid #339999;
+}
+
+
+#newyearTitle p
+{
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 850px;
+	font-family: Apple Chancery, cursive;
+}
+
+#newyearTitle p
+{
+	font-size: 36px;
+	color: black;
+}
+
+
+#newyearText p
+{
+	flex-direction: column;
+}
+
+
+#newyearText p
+{
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 690px;
+	margin-right: 120px;
+	color: black;
+}
 
 #newsInfo
 {
