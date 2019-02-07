@@ -27,7 +27,7 @@ body
 	color: #333;
 }
 
-
+/*index.html*/
 .topBar
 {
 	background-color: white;
@@ -121,11 +121,12 @@ body
 }
 
 
+/*Main Infomation*/
 .infoBackground
 {
 	background: #464747;
 	width: 1400px;
-	height: 3432px;
+	height: 1400px;
 	border-radius: 20px;
 }
 
@@ -133,7 +134,7 @@ body
 .riverWork
 {
 	position: absolute;
-	border-radius: 25px;
+	border-radius: 20px 20px 0px 20px;
 	border: 5px solid white;
 	margin-left: 30px;
 	width: 571px;
@@ -159,11 +160,11 @@ body
 {
 	position: absolute;
 	margin-left: 611px;
-	margin-top: 130px;
+	margin-top: 140px;
 	width: 740px;
 	height: 443px;
 	background-color: #cdcdcd; 
-	border-radius: 0px 10px 90px 0px;
+	border-radius: 0px 20px 0px 0px;
 	background-image: linear-gradient(grey, #cdcdcd);
 	border: 10px solid #339999;
 }
@@ -187,6 +188,7 @@ body
 .newyearText p
 {
 	flex-direction: column;
+	font-family: Helvetica;
 }
 
 
@@ -198,6 +200,7 @@ body
 	margin-right: 120px;
 	color: black;
 	font-size: 20px;
+	font-family: Helvetica;
 }
 
 .membership
@@ -255,7 +258,7 @@ body
 .memebershipText p
 {
 	position: absolute;
-	margin-top: -475px;
+	margin-top: -510px;
 	margin-left: 100px;
 	margin-right: 850px;
 }
@@ -266,13 +269,14 @@ body
 	font-size: 20px;
 	color: black;
 	flex-direction: column;
+	font-family: Helvetica;
 }
 
 
 .fundraisingText p
 {
     position: absolute;
-	margin-top: -475px;
+	margin-top: -510px;
 	margin-left: 800px;
 	margin-right: 100px;
 }
@@ -283,10 +287,253 @@ body
 	font-size: 20px;
 	color: black;
 	flex-direction: column;
+	font-family: Helvetica;
 
 }
+
 
 .button1 
 {
-	margin-top: 100px;
+	display: block;
+	margin-left: 205px;
+    background-color: #61a3c1;
+	display: block;
+	width: 200px;
+	padding: 25px;
+	text-align: center;
+	margin-top: -80px;
+	color: #fff;
+	font-weight: bold;
+	background-image: linear-gradient(#57929f, #72bec4, #57929f);
+	border: 5px solid white;
+	border-radius: 20px;
 }
+
+}
+
+.button1:hover
+{
+	background-color: white;
+}
+
+
+
+.button2
+{
+	display: block;
+	margin-top: -60px;
+	display: block;
+	margin-left: 920px;
+    background-color: #61a3c1;
+	display: block;
+	width: 200px;
+	padding: 25px;
+	text-align: center;
+	margin-top: -70px;
+	color: #fff;
+	font-weight: bold;
+	background-image: linear-gradient(#57929f, #72bec4, #57929f);
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+
+.button2:hover
+{
+	background-color: white;
+}
+
+
+.traaTitle
+{
+	position: absolute;
+    font-family: Apple Chancery, cursive;
+    color: white;
+    margin-left: 50px;	
+    margin-top: 70px;
+    font-size: 36px;
+}
+
+/*Third Main Infomation*/
+
+
+.parnters
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.supporters_Melchers
+{
+	width: 274px;
+	height: 84px;
+	margin-top: 100px;
+	margin-left: 130px;
+}
+
+
+.melchersSupporters p 
+{
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.melchersSupporters p
+{
+	font-family: Helvetica;
+	margin-top: 200px;
+	margin-left: -310px;
+	margin-right: 1000px;
+}
+
+
+.suppoertersGuillevin
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.supporters_guillevin
+{
+	width: 345px;
+	height: 95px;
+	margin-top: -380px;
+	margin-left: 510px;
+}
+
+
+
+.gullevinsupporters p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.gullevinsupporters p
+{
+    font-family: Helvetica;
+	margin-top: 14px;
+	margin-right: 550px;
+	margin-left: 500px;
+}
+
+
+.suportersMuma
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.supporters_muna
+{
+	width: 345px;
+	height: 95px;
+	margin-top: -460px;
+	margin-left: 950px;
+}
+
+
+.supportersmuna p
+{
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.supportersmuna p
+{
+	font-family: Helvetica;
+	margin-top: -355px;
+	margin-right: 183px;
+	margin-left: -350px;
+
+}
+
+
+.tryRecycling
+{
+	display: flex;
+}
+
+
+.try_reycling
+{
+	width: 296px;
+	height: 100px;
+	margin-left: 310px;
+	margin-top: 80px;
+}
+
+
+.tryrecycling p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.tryrecycling p
+{
+    font-family: Helvetica;
+	margin-top: 210px;
+	margin-right: 830px;
+	margin-left: -350px;
+}
+
+
+.anglingsport
+{
+	display: flex;
+}
+
+
+.angling_Sports
+{
+	position: absolute;
+    width: 140px;
+	height: 156px;
+	margin-top: -170px;
+	margin-left: 880px;
+}
+
+
+.Anglingsports p
+{
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.Anglingsports p
+{
+	font-family: Helvetica;
+	margin-top: -235px;
+	margin-right: 250px;
+	margin-left: 750px;
+
+}
+
+/*.Anglingsports p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.Anglingsports p
+{
+    font-family: Helvetica;
+	margin-top: -20px;
+	
+}*/
