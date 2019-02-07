@@ -10,6 +10,10 @@ div,p,body,header,footer,section,article,nav
 	padding: 0; 
 }	
 
+ul, li, a
+{
+	text-decoration: none;
+}
 p
 {
 	line-height: 30px;
@@ -309,7 +313,6 @@ body
 	border-radius: 20px;
 }
 
-}
 
 .button1:hover
 {
@@ -523,17 +526,90 @@ body
 
 }
 
-/*.Anglingsports p
+/*Footer*/
+
+
+.footerbar
 {
-    font-size: 20px;
-	color: black;
-	flex-direction: column;
+	display: flex;
+	margin-left: auto;
 }
 
 
-.Anglingsports p
+.footerbar
 {
-    font-family: Helvetica;
-	margin-top: -20px;
-	
-}*/
+	background-color: #444545;
+	width: 1400px;
+	height: 79px;
+	margin-top: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.footer
+{
+	background-color: #1d8a99;
+	width: 1400px;
+	height: 220px;
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.footerLogo
+{
+    position: absolute;
+	width: 203px;
+	height: 180px;
+	margin-top: -200px;
+	margin-left: 70px;
+		
+}
+
+.footertext
+{
+	display: flex;
+	flex-direction: row
+}
+
+
+.footertext p
+{
+	position: absolute;
+	margin-top: -215px;
+	font-size: 18px;
+	color: white;
+	font-family: Apple Chancery, cursive;
+	margin-left: 299px;
+	margin-right: 850px;
+}
+
+
+.mainFooter ul
+{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	margin-top:-120px;
+	margin-left: 500px;;
+}
+
+.mainFooter ul li a
+{
+	margin-left: 90px;
+	justify-content: space-between;
+	color: white;
+}
+
+
+.mainFooter ul 
+{
+  position: absolute;
+  list-style-type: none;
+  font-size: 18px;
+  font-family: Apple Chancery, cursive;
+}
+
+
