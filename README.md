@@ -19,3 +19,5 @@ Added wireframes and PDFS.
 Added Design psd and added images.
 
 Started working index.html page.
+
+Still working on html.page and css.
