@@ -427,7 +427,7 @@ body
 }
 
 
-.suportersMuma
+.supportersMuma
 {
 	display: flex;
 	flex-direction: row;
@@ -613,3 +613,25 @@ body
 }
 
 
+.copyRight
+{
+  position: absolute;
+  list-style-type: none;
+  font-size: 18px;
+  font-family: Apple Chancery, cursive;
+  margin-top: -30px;
+  margin-left: 980px;
+}
+
+
+
+.icons ul
+{
+	margin-left: 690px;
+	margin-top: -55px;
+}
+
+.icons ul li a
+{
+	margin-left: 5px;
+}
