@@ -125,7 +125,7 @@ body
 {
 	background: #464747;
 	width: 1400px;
-	height: 3432px;
+	height: 1400px;
 	border-radius: 20px;
 }
 
@@ -133,7 +133,7 @@ body
 .riverWork
 {
 	position: absolute;
-	border-radius: 25px;
+	border-radius: 20px 20px 0px 20px;
 	border: 5px solid white;
 	margin-left: 30px;
 	width: 571px;
@@ -159,11 +159,11 @@ body
 {
 	position: absolute;
 	margin-left: 611px;
-	margin-top: 130px;
+	margin-top: 140px;
 	width: 740px;
 	height: 443px;
 	background-color: #cdcdcd; 
-	border-radius: 0px 10px 90px 0px;
+	border-radius: 0px 20px 0px 0px;
 	background-image: linear-gradient(grey, #cdcdcd);
 	border: 10px solid #339999;
 }
@@ -187,6 +187,7 @@ body
 .newyearText p
 {
 	flex-direction: column;
+	font-family: Helvetica;
 }
 
 
@@ -198,6 +199,7 @@ body
 	margin-right: 120px;
 	color: black;
 	font-size: 20px;
+	font-family: Helvetica;
 }
 
 .membership
@@ -255,7 +257,7 @@ body
 .memebershipText p
 {
 	position: absolute;
-	margin-top: -475px;
+	margin-top: -510px;
 	margin-left: 100px;
 	margin-right: 850px;
 }
@@ -266,13 +268,14 @@ body
 	font-size: 20px;
 	color: black;
 	flex-direction: column;
+	font-family: Helvetica;
 }
 
 
 .fundraisingText p
 {
     position: absolute;
-	margin-top: -475px;
+	margin-top: -510px;
 	margin-left: 800px;
 	margin-right: 100px;
 }
@@ -283,10 +286,69 @@ body
 	font-size: 20px;
 	color: black;
 	flex-direction: column;
+	font-family: Helvetica;
 
 }
 
+
 .button1 
 {
-	margin-top: 100px;
+	display: block;
+	margin-left: 205px;
+    background-color: #61a3c1;
+	display: block;
+	width: 200px;
+	padding: 25px;
+	text-align: center;
+	margin-top: -80px;
+	color: #fff;
+	font-weight: bold;
+	background-image: linear-gradient(#57929f, #72bec4, #57929f);
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+}
+
+.button1:hover
+{
+	background-color: white;
+}
+
+
+
+.button2
+{
+	display: block;
+	margin-top: -60px;
+	display: block;
+	margin-left: 920px;
+    background-color: #61a3c1;
+	display: block;
+	width: 200px;
+	padding: 25px;
+	text-align: center;
+	margin-top: -70px;
+	color: #fff;
+	font-weight: bold;
+	background-image: linear-gradient(#57929f, #72bec4, #57929f);
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+
+.button2:hover
+{
+	background-color: white;
+}
+
+
+.traaTitle
+{
+	position: absolute;
+    font-family: Apple Chancery, cursive;
+    color: white;
+    margin-left: 50px;	
+    margin-top: 70px;
+    font-size: 36px;
 }
