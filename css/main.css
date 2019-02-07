@@ -27,7 +27,7 @@ body
 	color: #333;
 }
 
-
+/*index.html*/
 .topBar
 {
 	background-color: white;
@@ -452,7 +452,7 @@ body
 {
 	font-family: Helvetica;
 	margin-top: -355px;
-	margin-right: 200px;
+	margin-right: 183px;
 	margin-left: -350px;
 
 }
@@ -485,7 +485,7 @@ body
 {
     font-family: Helvetica;
 	margin-top: 210px;
-	margin-right: 730px;
+	margin-right: 830px;
 	margin-left: -350px;
 }
 
@@ -498,12 +498,30 @@ body
 
 .angling_Sports
 {
+	position: absolute;
     width: 140px;
 	height: 156px;
-	margin-top: -350px;
-	margin-left: 1000px;
+	margin-top: -170px;
+	margin-left: 880px;
 }
 
+
+.Anglingsports p
+{
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.Anglingsports p
+{
+	font-family: Helvetica;
+	margin-top: -235px;
+	margin-right: 250px;
+	margin-left: 750px;
+
+}
 
 /*.Anglingsports p
 {
