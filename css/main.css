@@ -1050,7 +1050,7 @@ display: flex;
 
 
 
-.grandRiver
+.GrandRiver
 {
 	display: flex;
 }
@@ -1063,3 +1063,21 @@ display: flex;
 	margin-top: 200px;
 	margin-left: 1200px;
 }
+
+
+
+.Halton
+{
+	display: flex;
+}
+
+.haltonConvervation
+{
+	position: absolute;
+	width: 260px;
+	height: 114px;
+	margin-top: 400px; 
+	margin-left: 80px;
+}
+
+
