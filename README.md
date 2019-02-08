@@ -21,3 +21,13 @@ Added Design psd and added images.
 Started working index.html page.
 
 Still working on html.page and css.
+
+Finished overal design and layout for index.html (home page)
+
+Started working on Links.html and css for it. Git pushing and pulling.
+
+Added images and text onto links.
+
+started working on third infomation on the links.html page.
+
+Added logos and more infomation to links.html page. updated main.css and added footer. Finished links.html page.
