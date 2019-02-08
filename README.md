@@ -6,3 +6,5 @@ Updated index.html, added reset.css and added main.js
 
 git push everything to master branch.
 
+
+updated.
