@@ -927,18 +927,139 @@ body
 }
 
 
+.troutCanada
+{
+display: flex;
+}
+
+
 .tcImages
 {
 	width: 152px;
 	height: 152px;
-    margin-top: -900px;
+	margin-left: 1100px;
+	margin-top: -400px;
 }
+
 
 .troutcanada
 {
     color: black;
 	font-size: 36px;
 	font-family: "Apple Chancery", cursive; 
-	margin-left: 1000px;
-	margin-top: -230px
+	margin-left: -139px;
+	margin-top: -250px;
+}
+
+
+.TroutCanada p
+{
+    font-size: 20px;
+	color: black;
+}
+
+
+.TroutCanada p
+{
+	font-family: "Helvetica";
+	margin-left: -280px;
+	margin-right: 100px;
+	margin-top: -115px;
+}
+
+
+/*End*/
+
+
+/*Start Third Section*/
+
+
+.InfomationConservation
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.secondBanner
+{
+    color: black;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-top: 250px;	
+	margin-left: 20px;
+}
+
+
+.linksinfoBackground
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 1400px;
+	height: 984px;
+	background-color: #464747;
+}
+
+
+/*Start Logos*/
+
+
+.Bayfield
+{
+	display: flex;
+}
+
+.bayfieldConservation
+{
+	position: absolute;
+	width: 290px;
+	height: 113px;
+	margin-top: 200px; 
+	margin-left: 80px;
+}
+
+
+.Credit
+{
+	display: flex;
+}
+
+.creditConservation
+{
+	position: absolute;
+	width: 317px;
+	height: 107px;
+	margin-top: 200px;
+	margin-left: 380px;
+}
+
+
+.Region
+{
+	display: flex;
+}
+
+.regionConservation
+{
+    position: absolute;
+	width: 316px;
+	height: 82px;
+	margin-top: 230px;
+	margin-left: 780px;
+}
+
+
+
+.grandRiver
+{
+	display: flex;
+}
+
+.gradriverConservation
+{
+	position: absolute;
+	width: 131px;
+	height: 131px;
+	margin-top: 200px;
+	margin-left: 1200px;
 }
