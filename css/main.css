@@ -654,22 +654,25 @@ body
 	width: 1400px;
 	height: 118px;
 	margin-left: 20px;	
-	border-radius:20px 20px 0px 0px;
+	border-radius:20px 20px 20px 20px;
 	border-bottom: 2px solid white;
 }
 
 
-.conservationBar p
+.ConservationBar
 {
+	position: absolute;
 	color: white;
 	font-size: 36px;
 	font-family: Apple Chancery, cursive; 
+	margin-top: 55px;
+	margin-left: 70px
 }
 
 
 /*Main Infomation*/
 
-.conservationBar p
+.ConservationBar
 {
 	margin-top: 70px; 
 	margin-right: 1000px;
@@ -684,5 +687,151 @@ body
 
 .cccImage
 {
-	
+	width: 313px;
+	height: 121px;
+	margin-top: 200px;
+	margin-left: 20px;
+}
+
+
+.CarolinianCanada
+{
+	position: absolute;
+	color: black;
+	font-size: 36px;
+	font-family: Apple Chancery, cursive; 
+	margin-top: 430px;
+	margin-left: 30px
+}
+
+
+
+.cccText p
+{
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.cccText p
+{
+	font-family: Helvetica;
+	margin-top: 510px;
+	margin-left: -315px;
+	margin-right: 1130px;
+}
+
+
+.friendsThames
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.ftImages
+{
+	width: 162px;
+	height: 283px;
+	margin-left: 470px;
+	margin-top: -600px;
+}
+
+
+.ftText p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.ftText p
+{
+	font-family: Helvetica;
+	margin-top: -150px;
+	margin-left: -220px;
+	margin-right: 750px;
+}
+
+.FriendsThames
+{
+	color: black;
+	font-size: 36px;
+	font-family: Apple Chancery, cursive; 
+	margin-top: -270px;
+	margin-left: -155px
+}
+
+
+
+
+.naturelondon
+{
+	display: flex;
+}
+
+
+.natureLondon
+{
+    color: black;
+	font-size: 36px;
+	font-family: Apple Chancery, cursive; 
+	margin-top: -555px;
+	margin-left: 820px;
+}
+
+
+.naturelondonText p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.naturelondonText p
+{
+	font-family: Helvetica;
+	margin-top: -450px;
+	margin-left: -190px;
+	margin-right: 410px;
+}
+
+
+.northAssociation
+{
+	display: flex;
+}
+
+
+.naImages
+{
+	width: 314px;
+	height: 85px;
+	margin-left: 1060px;
+	margin-top: -720px;
+}
+
+
+.northassociation
+{
+    color: black;
+	font-size: 36px;
+	font-family: Apple Chancery, cursive; 
+	margin-left: -300px;
+	margin-top: -550px;
+}
+
+
+.NorthAssociation p
+{
+
+}
+
+.NorthAssociation p
+{
+
 }
