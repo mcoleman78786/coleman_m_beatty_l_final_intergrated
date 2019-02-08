@@ -1,2 +1,1262 @@
 @charset "UTF-8";
 /* CSS Document */
+
+
+
+
+div,p,body,header,footer,section,article,nav 
+{ 
+	margin: 0; 
+	padding: 0; 
+}	
+
+ul, li, a
+{
+	text-decoration: none;
+}
+p
+{
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+
+}
+
+
+body 
+{
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+/*index.html*/
+.topBar
+{
+	background-color: white;
+	height: 20px;
+}
+
+
+.hidden 
+{
+	display: none;
+}
+
+
+.headerRiver
+{
+	margin-left: auto;
+	width: 1400px;
+	height: 400px;
+}
+
+.mainNav
+{
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+.mainNav ul
+{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	margin-top: 425px;
+}
+
+.mainNav ul li a
+{
+	margin-left: 62px;
+	justify-content: space-between;
+	color: white;
+}
+
+
+.mainNav ul 
+{
+  margin-left: 240px;
+  position: absolute;
+  list-style-type: none;
+  font-size: 25px;
+  font-family: "Apple Chancery", cursive;
+}
+
+
+.mainNav p
+{
+	color: black;
+	font-size: 25px;
+	margin-top: 900px;
+	margin-left: 700px;
+}
+
+
+.navBackground
+{
+	margin-top: 0px;
+	background: #1d8a99;
+	width: 1400px;
+	height: 76px;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 2px solid white;
+}
+
+
+.logo
+{
+	position: absolute;
+	width: 203px;
+	height: 180px;
+	margin-top: 120px;
+	margin-left: 100px;
+}
+
+.mainInfo
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+
+/*Main Infomation*/
+.infoBackground
+{
+	background: #464747;
+	width: 1400px;
+	height: 1400px;
+	border-radius: 20px;
+}
+
+
+.riverWork
+{
+	position: absolute;
+	border-radius: 20px 20px 0px 20px;
+	border: 5px solid white;
+	margin-left: 30px;
+	width: 571px;
+	height: 563px;
+	margin-top: 30px;
+
+}
+
+
+.generalMeetings 
+{
+	position: absolute;
+	color: black;
+	margin-top: 80px;
+	margin-left: 630px;
+	font-size: 36px;
+	color: white;
+	font-family: "Apple Chancery", cursive;
+}
+
+
+.newYear
+{
+	position: absolute;
+	margin-left: 611px;
+	margin-top: 140px;
+	width: 740px;
+	height: 443px;
+	background-color: #cdcdcd; 
+	border-radius: 0px 20px 0px 0px;
+	background-image: linear-gradient(grey, #cdcdcd);
+	border: 10px solid #339999;
+}
+
+
+.newyearTitle 
+{
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 850px;
+	font-family: "Apple Chancery", cursive;
+}
+
+.newyearTitle 
+{
+	font-size: 36px;
+	color: black;
+}
+
+
+.newyearText p
+{
+	flex-direction: column;
+	font-family: "Helvetica";
+}
+
+
+.newyearText p
+{
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 690px;
+	margin-right: 120px;
+	color: black;
+	font-size: 20px;
+	font-family: "Helvetica";
+}
+
+.membership
+{
+	background-color: #cdcdcd; 
+	background-image: linear-gradient(grey, #cdcdcd);
+	width: 540px;
+	height: 526px;
+	margin-top: 750px;
+	margin-left: 75px;
+}
+
+.fundraising
+{
+	background-color: #cdcdcd; 
+	background-image: linear-gradient(grey, #cdcdcd);
+	width: 540px;
+	height: 526px;
+	margin-top: -526px;
+	margin-left: 785px;
+}
+
+
+.membershipTitle 
+{
+	position: absolute;
+	margin-top: -575px;
+	margin-left: 230px;
+	font-family: "Apple Chancery", cursive;
+}
+
+.membershipTitle 
+{
+	font-size: 36px;
+	color: white;
+}
+
+
+.fundraisingTitle 
+{
+	font-size: 36px;
+	color: white;
+}
+
+
+.fundraisingTitle 
+{
+	position: absolute;
+	margin-top: -575px;
+	margin-left: 950px;
+	font-family: "Apple Chancery", cursive;	
+}
+
+
+.memebershipText p
+{
+	position: absolute;
+	margin-top: -510px;
+	margin-left: 100px;
+	margin-right: 850px;
+}
+
+
+.memebershipText p
+{
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
+	font-family: "Helvetica";
+}
+
+
+.fundraisingText p
+{
+    position: absolute;
+	margin-top: -510px;
+	margin-left: 800px;
+	margin-right: 100px;
+}
+
+
+.fundraisingText p
+{
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
+	font-family: "Helvetica";
+
+}
+
+
+.button1 
+{
+	display: block;
+	margin-left: 205px;
+    background-color: #61a3c1;
+	display: block;
+	width: 200px;
+	padding: 25px;
+	text-align: center;
+	margin-top: -80px;
+	color: #fff;
+	font-weight: bold;
+	background-image: linear-gradient(#57929f, #72bec4, #57929f);
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+
+.button1:hover
+{
+	background-color: white;
+}
+
+
+
+.button2
+{
+	display: block;
+	margin-top: -60px;
+	display: block;
+	margin-left: 920px;
+    background-color: #61a3c1;
+	display: block;
+	width: 200px;
+	padding: 25px;
+	text-align: center;
+	margin-top: -70px;
+	color: #fff;
+	font-weight: bold;
+	background-image: linear-gradient(#57929f, #72bec4, #57929f);
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+
+.button2:hover
+{
+	background-color: white;
+}
+
+
+.traaTitle
+{
+	position: absolute;
+    font-family: "Apple Chancery", cursive;
+    color: white;
+    margin-left: 50px;	
+    margin-top: 70px;
+    font-size: 36px;
+}
+
+/*Third Main Infomation*/
+
+
+.parnters
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.supporters_Melchers
+{
+	width: 274px;
+	height: 84px;
+	margin-top: 100px;
+	margin-left: 130px;
+}
+
+
+.melchersSupporters p 
+{
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.melchersSupporters p
+{
+	font-family: "Helvetica";
+	margin-top: 200px;
+	margin-left: -310px;
+	margin-right: 1000px;
+}
+
+
+.suppoertersGuillevin
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.supporters_guillevin
+{
+	width: 345px;
+	height: 95px;
+	margin-top: -380px;
+	margin-left: 510px;
+}
+
+
+
+.gullevinsupporters p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.gullevinsupporters p
+{
+    font-family: "Helvetica";
+	margin-top: 14px;
+	margin-right: 550px;
+	margin-left: 500px;
+}
+
+
+.supportersMuma
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.supporters_muma
+{
+	width: 345px;
+	height: 95px;
+	margin-top: -460px;
+	margin-left: 950px;
+}
+
+
+.supportersmuma p
+{
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.supportersmuma p
+{
+	font-family: "Helvetica";
+	margin-top: -355px;
+	margin-right: 183px;
+	margin-left: -350px;
+
+}
+
+
+.tryRecycling
+{
+	display: flex;
+}
+
+
+.try_reycling
+{
+	width: 296px;
+	height: 100px;
+	margin-left: 310px;
+	margin-top: 80px;
+}
+
+
+.tryrecycling p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.tryrecycling p
+{
+    font-family: "Helvetica";
+	margin-top: 210px;
+	margin-right: 830px;
+	margin-left: -350px;
+}
+
+
+.anglingsport
+{
+	display: flex;
+}
+
+
+.angling_Sports
+{
+	position: absolute;
+    width: 140px;
+	height: 156px;
+	margin-top: -170px;
+	margin-left: 880px;
+}
+
+
+.Anglingsports p
+{
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.Anglingsports p
+{
+	font-family: "Helvetica";
+	margin-top: -235px;
+	margin-right: 250px;
+	margin-left: 750px;
+
+}
+
+/*Footer*/
+
+
+.footerbar
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.footerbar
+{
+	background-color: #444545;
+	width: 1400px;
+	height: 79px;
+	margin-top: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.footer
+{
+	background-color: #1d8a99;
+	width: 1400px;
+	height: 220px;
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.footerLogo
+{
+    position: absolute;
+	width: 203px;
+	height: 180px;
+	margin-top: -200px;
+	margin-left: 70px;
+		
+}
+
+.footertext
+{
+	display: flex;
+	flex-direction: row
+}
+
+
+.footertext p
+{
+	position: absolute;
+	margin-top: -215px;
+	font-size: 18px;
+	color: white;
+	font-family: "Apple Chancery", cursive;
+	margin-left: 299px;
+	margin-right: 850px;
+}
+
+
+.mainFooter ul
+{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	margin-top:-120px;
+	margin-left: 500px;;
+}
+
+.mainFooter ul li a
+{
+	margin-left: 90px;
+	justify-content: space-between;
+	color: white;
+}
+
+
+.mainFooter ul 
+{
+  position: absolute;
+  list-style-type: none;
+  font-size: 18px;
+  font-family: "Apple Chancery", cursive;
+}
+
+
+.copyRight
+{
+  position: absolute;
+  list-style-type: none;
+  font-size: 18px;
+  font-family: "Apple Chancery", cursive;
+  margin-top: -30px;
+  margin-left: 980px;
+}
+
+
+
+.icons ul
+{
+	margin-left: 690px;
+	margin-top: -50px;
+}
+
+.icons ul li a
+{
+	margin-left: 5px;
+}
+
+/* Finish Index. page*/
+
+/*Links.html page*/
+
+
+.conservation
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.conservationBar
+{
+	background-color: #464747;
+	width: 1400px;
+	height: 118px;
+	margin-left: 20px;	
+	border-radius:20px 20px 20px 20px;
+	border-bottom: 2px solid white;
+}
+
+
+.ConservationBar
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-top: 55px;
+	margin-left: 70px
+}
+
+
+/*Main Infomation*/
+
+.ConservationBar
+{
+	margin-top: 70px; 
+	margin-right: 1000px;
+}
+
+
+.carolinianCanada
+{
+	display: flex;
+}
+
+
+.cccImage
+{
+	width: 313px;
+	height: 121px;
+	margin-top: 200px;
+	margin-left: 20px;
+}
+
+
+.CarolinianCanada
+{
+	position: absolute;
+	color: black;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-top: 430px;
+	margin-left: 30px
+}
+
+
+
+.cccText p
+{
+	font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.cccText p
+{
+	font-family: "Helvetica";
+	margin-top: 510px;
+	margin-left: -315px;
+	margin-right: 1130px;
+}
+
+
+.friendsThames
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.ftImages
+{
+	width: 162px;
+	height: 283px;
+	margin-left: 470px;
+	margin-top: -600px;
+}
+
+
+.ftText p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.ftText p
+{
+	font-family: "Helvetica";
+	margin-top: -150px;
+	margin-left: -220px;
+	margin-right: 750px;
+}
+
+.FriendsThames
+{
+	color: black;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-top: -270px;
+	margin-left: -155px
+}
+
+
+
+
+.naturelondon
+{
+	display: flex;
+}
+
+
+.natureLondon
+{
+    color: black;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-top: -555px;
+	margin-left: 820px;
+}
+
+
+.naturelondonText p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.naturelondonText p
+{
+	font-family: "Helvetica";
+	margin-top: -450px;
+	margin-left: -190px;
+	margin-right: 410px;
+}
+
+
+.northAssociation
+{
+	display: flex;
+}
+
+
+.naImages
+{
+	width: 314px;
+	height: 85px;
+	margin-left: 1060px;
+	margin-top: -720px;
+}
+
+
+.northassociation
+{
+    color: black;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-left: -200px;
+	margin-top: -600px;
+}
+
+
+.NorthAssociation p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+.NorthAssociation p
+{
+	font-family: "Helvetica";
+	margin-top: -450px;
+	margin-left: -220px;
+	margin-right: 50px;
+}
+
+
+/* Second Main Information*/
+.ontarioStreams
+{
+	display: flex;
+}
+
+
+.osImages
+{
+	width: 214px;
+	height: 149px;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+
+
+.ontariostreams
+{
+    color: black;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-top: 250px;	
+	margin-left: -170px;
+}
+
+
+.OntarioStreams p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.OntarioStreams p
+{
+	font-family: "Helvetica";
+	margin-top: 350px;
+	margin-left: -260px;
+	margin-right: 1000px;
+}
+
+
+.ontarioFederation
+{
+	display: flex;
+}
+
+
+.ofImage
+{
+	width: 150px;
+	height: 120px;
+	margin-top: -390px;
+	margin-left: 650px;
+}
+
+
+.ontraiofederation
+{
+    color: black;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-top: -250px;	
+	margin-left: -200px;
+}
+
+
+.OntarioFederation p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.OntarioFederation p
+{
+	font-family: "Helvetica";
+	margin-left: -300px;
+	margin-right: 600px;
+	margin-top: -113px;
+}
+
+
+.troutCanada
+{
+display: flex;
+}
+
+
+.tcImages
+{
+	position: absolute;
+	width: 152px;
+	height: 152px;
+	margin-left: 1100px;
+	margin-top: -400px;
+}
+
+
+.troutcanada
+{
+    color: black;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-left: 1100px;
+	margin-top: -250px;
+}
+
+
+.TroutCanada p
+{
+    font-size: 20px;
+	color: black;
+}
+
+
+.TroutCanada p
+{
+	font-family: "Helvetica";
+	margin-left: -280px;
+	margin-right: 100px;
+	margin-top: -115px;
+}
+
+
+/*End*/
+
+
+/*Start Third Section*/
+
+
+.InfomationConservation
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.secondBanner
+{
+    color: black;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-top: 250px;	
+	margin-left: 20px;
+}
+
+
+.linksinfoBackground
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 1400px;
+	height: 1400px;
+	background-color: #464747;
+}
+
+
+/*Start Logos*/
+
+
+.Bayfield
+{
+	display: flex;
+}
+
+.bayfieldConservation
+{
+	position: absolute;
+	width: 290px;
+	height: 113px;
+	margin-top: 200px; 
+	margin-left: 80px;
+}
+
+
+.Credit
+{
+	display: flex;
+}
+
+.creditConservation
+{
+	position: absolute;
+	width: 317px;
+	height: 107px;
+	margin-top: 200px;
+	margin-left: 380px;
+}
+
+
+.Region
+{
+	display: flex;
+}
+
+.regionConservation
+{
+    position: absolute;
+	width: 316px;
+	height: 82px;
+	margin-top: 230px;
+	margin-left: 780px;
+}
+
+
+
+.GrandRiver
+{
+	display: flex;
+}
+
+.gradriverConservation
+{
+	position: absolute;
+	width: 131px;
+	height: 131px;
+	margin-top: 200px;
+	margin-left: 1200px;
+}
+
+
+
+.Halton
+{
+	display: flex;
+}
+
+.haltonConservation
+{
+	position: absolute;
+	width: 260px;
+	height: 114px;
+	margin-top: 400px; 
+	margin-left: 80px;
+}
+
+
+.Hamilton
+{
+	display: flex;
+}
+
+.hamiltonConservation
+{
+	position: absolute;
+	width: 233px;
+	height: 114px;
+	margin-top: 400px;
+	margin-left: 400px;
+}
+
+
+.LongPoint
+{
+	display: flex;
+}
+
+.longpointConservation
+{
+    position: absolute;
+	width: 314px;
+	height: 107px;
+	margin-top: 400px;
+	margin-left: 680px;
+}
+
+
+.Lakehead
+{
+	display: flex;
+}
+
+.lakeheadConservation
+{
+	position: absolute;
+	width: 319px;
+	height: 97px;
+	margin-top: 405px;
+	margin-left: 1050px;
+}
+
+
+.LowerThames
+{
+	display: flex;
+}
+
+.lowerthamesConservation
+{
+	position: absolute;
+	width: 249px;
+	height: 64px;
+	margin-top: 650px; 
+	margin-left: 80px;
+}
+
+
+.TorontoRegion
+{
+	display: flex;
+}
+
+.torontoConservation
+{
+	position: absolute;
+	width: 318px;
+	height: 96px;
+	margin-top: 640px;
+	margin-left: 380px;
+}
+
+
+.RideauValley
+{
+	display: flex;
+}
+
+.rideauConservation
+{
+    position: absolute;
+	width: 189px;
+	height: 94px;
+	margin-top: 650px;
+	margin-left: 770px;
+}
+
+
+.StClair
+{
+	display: flex;
+}
+
+.stClair
+{
+	position: absolute;
+	width: 282px;
+	height: 90px;
+	margin-top: 650px;
+	margin-left: 1050px;
+}
+
+
+
+.UpperThames
+{
+	display: flex;
+}
+
+
+.upperThames
+{
+	position: absolute;
+	width: 280px;
+	height: 78px;
+	margin-top: 800px;
+	margin-left: 550px;
+}
+
+/*End Conservation Logos*/
+
+/*Start bottom information*/
+
+
+.thirdBanner
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 	
+	margin-left: 50px;
+	margin-top: -50px;
+}
+
+
+.GovernmentEnities
+{
+	display: flex;
+	margin-left: auto;
+}
+
+.governmentBackground
+{
+	display: flex;
+	margin-left: auto;
+}
+
+.governmentBackground
+{
+	width: 1400px;
+	height: 572px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+.govImages
+{
+	width: 504px;
+	height: 166px;
+	margin-top: 320px;
+}
+
+
+.thirdHeader
+{
+    position: absolute;
+	color: black;
+	font-size: 36px;
+	font-family: "Helvetica";
+	margin-left: 600px;
+	margin-top: 320px;	
+}
+
+
+/*Finished Links.html Page*/
