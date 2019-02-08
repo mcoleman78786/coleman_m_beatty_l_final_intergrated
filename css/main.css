@@ -1204,6 +1204,8 @@ display: flex;
 
 /*End Conservation Logos*/
 
+/*Start bottom information*/
+
 
 .thirdBanner
 {
@@ -1214,3 +1216,47 @@ display: flex;
 	margin-left: 50px;
 	margin-top: -50px;
 }
+
+
+.GovernmentEnities
+{
+	display: flex;
+	margin-left: auto;
+}
+
+.governmentBackground
+{
+	display: flex;
+	margin-left: auto;
+}
+
+.governmentBackground
+{
+	width: 1400px;
+	height: 572px;
+	background-color: white
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+.govImages
+{
+	width: 504px;
+	height: 166px;
+	margin-top: 320px;
+}
+
+
+.thirdHeader
+{
+    position: absolute;
+	color: black;
+	font-size: 36px;
+	font-family: "Helvetica";
+	margin-left: 600px;
+	margin-top: 320px;	
+}
+
+
+/*Finished Links.html Page*/

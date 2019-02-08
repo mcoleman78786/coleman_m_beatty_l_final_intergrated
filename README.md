@@ -29,3 +29,5 @@ Started working on Links.html and css for it. Git pushing and pulling.
 Added images and text onto links.
 
 started working on third infomation on the links.html page.
+
+Added logos and more infomation to links.html page. updated main.css and added footer. Finished links.html page.
