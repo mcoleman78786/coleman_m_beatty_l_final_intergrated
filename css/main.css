@@ -821,17 +821,23 @@ body
     color: black;
 	font-size: 36px;
 	font-family: Apple Chancery, cursive; 
-	margin-left: -300px;
-	margin-top: -550px;
+	margin-left: -200px;
+	margin-top: -600px;
 }
 
 
 .NorthAssociation p
 {
-
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
 }
 
 .NorthAssociation p
 {
+	font-family: Helvetica;
+	margin-top: -450px;
+	margin-left: -220px;
+	margin-right: 50px;
 
 }
