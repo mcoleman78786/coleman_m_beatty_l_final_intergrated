@@ -839,5 +839,62 @@ body
 	margin-top: -450px;
 	margin-left: -220px;
 	margin-right: 50px;
+}
 
+
+/* Second Main Information*/
+.ontarioStreams
+{
+	display: flex;
+}
+
+
+.osImages
+{
+	width: 214px;
+	height: 149px;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+
+
+.ontariostreams
+{
+    color: black;
+	font-size: 36px;
+	font-family: Apple Chancery, cursive; 
+	margin-top: 250px;	
+	margin-left: -170px;
+}
+
+
+.OntarioStreams p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.OntarioStreams p
+{
+	font-family: Helvetica;
+	margin-top: 350px;
+	margin-left: -255px;
+	margin-right: 1000px;
+}
+
+
+.ontarioFederation
+{
+	display: flex;
+}
+
+
+.ofImage
+{
+	width: 150px;
+	height: 120px;
+	margin-top: -390px;
+	margin-left: 650px;
 }
