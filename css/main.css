@@ -996,7 +996,7 @@ display: flex;
 	margin-left: 20px;
 	margin-right: 20px;
 	width: 1400px;
-	height: 984px;
+	height: 1400px;
 	background-color: #464747;
 }
 
@@ -1152,7 +1152,7 @@ display: flex;
 	width: 318px;
 	height: 96px;
 	margin-top: 640px;
-	margin-left: 360px;
+	margin-left: 380px;
 }
 
 
@@ -1167,5 +1167,50 @@ display: flex;
 	width: 189px;
 	height: 94px;
 	margin-top: 650px;
-	margin-left: 750px;
+	margin-left: 770px;
+}
+
+
+.StClair
+{
+	display: flex;
+}
+
+.stClair
+{
+	position: absolute;
+	width: 282px;
+	height: 90px;
+	margin-top: 650px;
+	margin-left: 1050px;
+}
+
+
+
+.UpperThames
+{
+	display: flex;
+}
+
+
+.upperThames
+{
+	position: absolute;
+	width: 280px;
+	height: 78px;
+	margin-top: 800px;
+	margin-left: 550px;
+}
+
+/*End Conservation Logos*/
+
+
+.thirdBanner
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 	
+	margin-left: 50px;
+	margin-top: -50px;
 }
