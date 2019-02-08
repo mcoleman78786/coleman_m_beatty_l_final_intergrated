@@ -27,3 +27,5 @@ Finished overal design and layout for index.html (home page)
 Started working on Links.html and css for it. Git pushing and pulling.
 
 Added images and text onto links.
+
+started working on third infomation on the links.html page.

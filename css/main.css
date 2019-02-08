@@ -26,7 +26,7 @@ p
 
 body 
 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 12px;
 	color: #333;
 }
@@ -83,7 +83,7 @@ body
   position: absolute;
   list-style-type: none;
   font-size: 25px;
-  font-family: Apple Chancery, cursive;
+  font-family: "Apple Chancery", cursive;
 }
 
 
@@ -156,7 +156,7 @@ body
 	margin-left: 630px;
 	font-size: 36px;
 	color: white;
-	font-family: Apple Chancery, cursive;
+	font-family: "Apple Chancery", cursive;
 }
 
 
@@ -179,7 +179,7 @@ body
 	position: absolute;
 	margin-top: 160px;
 	margin-left: 850px;
-	font-family: Apple Chancery, cursive;
+	font-family: "Apple Chancery", cursive;
 }
 
 .newyearTitle 
@@ -192,7 +192,7 @@ body
 .newyearText p
 {
 	flex-direction: column;
-	font-family: Helvetica;
+	font-family: "Helvetica";
 }
 
 
@@ -204,7 +204,7 @@ body
 	margin-right: 120px;
 	color: black;
 	font-size: 20px;
-	font-family: Helvetica;
+	font-family: "Helvetica";
 }
 
 .membership
@@ -233,7 +233,7 @@ body
 	position: absolute;
 	margin-top: -575px;
 	margin-left: 230px;
-	font-family: Apple Chancery, cursive;
+	font-family: "Apple Chancery", cursive;
 }
 
 .membershipTitle 
@@ -255,7 +255,7 @@ body
 	position: absolute;
 	margin-top: -575px;
 	margin-left: 950px;
-	font-family: Apple Chancery, cursive;	
+	font-family: "Apple Chancery", cursive;	
 }
 
 
@@ -273,7 +273,7 @@ body
 	font-size: 20px;
 	color: black;
 	flex-direction: column;
-	font-family: Helvetica;
+	font-family: "Helvetica";
 }
 
 
@@ -291,7 +291,7 @@ body
 	font-size: 20px;
 	color: black;
 	flex-direction: column;
-	font-family: Helvetica;
+	font-family: "Helvetica";
 
 }
 
@@ -350,7 +350,7 @@ body
 .traaTitle
 {
 	position: absolute;
-    font-family: Apple Chancery, cursive;
+    font-family: "Apple Chancery", cursive;
     color: white;
     margin-left: 50px;	
     margin-top: 70px;
@@ -386,7 +386,7 @@ body
 
 .melchersSupporters p
 {
-	font-family: Helvetica;
+	font-family: "Helvetica";
 	margin-top: 200px;
 	margin-left: -310px;
 	margin-right: 1000px;
@@ -420,7 +420,7 @@ body
 
 .gullevinsupporters p
 {
-    font-family: Helvetica;
+    font-family: "Helvetica";
 	margin-top: 14px;
 	margin-right: 550px;
 	margin-left: 500px;
@@ -453,7 +453,7 @@ body
 
 .supportersmuma p
 {
-	font-family: Helvetica;
+	font-family: "Helvetica";
 	margin-top: -355px;
 	margin-right: 183px;
 	margin-left: -350px;
@@ -486,7 +486,7 @@ body
 
 .tryrecycling p
 {
-    font-family: Helvetica;
+    font-family: "Helvetica";
 	margin-top: 210px;
 	margin-right: 830px;
 	margin-left: -350px;
@@ -519,7 +519,7 @@ body
 
 .Anglingsports p
 {
-	font-family: Helvetica;
+	font-family: "Helvetica";
 	margin-top: -235px;
 	margin-right: 250px;
 	margin-left: 750px;
@@ -581,7 +581,7 @@ body
 	margin-top: -215px;
 	font-size: 18px;
 	color: white;
-	font-family: Apple Chancery, cursive;
+	font-family: "Apple Chancery", cursive;
 	margin-left: 299px;
 	margin-right: 850px;
 }
@@ -609,7 +609,7 @@ body
   position: absolute;
   list-style-type: none;
   font-size: 18px;
-  font-family: Apple Chancery, cursive;
+  font-family: "Apple Chancery", cursive;
 }
 
 
@@ -618,7 +618,7 @@ body
   position: absolute;
   list-style-type: none;
   font-size: 18px;
-  font-family: Apple Chancery, cursive;
+  font-family: "Apple Chancery", cursive;
   margin-top: -30px;
   margin-left: 980px;
 }
@@ -664,7 +664,7 @@ body
 	position: absolute;
 	color: white;
 	font-size: 36px;
-	font-family: Apple Chancery, cursive; 
+	font-family: "Apple Chancery", cursive; 
 	margin-top: 55px;
 	margin-left: 70px
 }
@@ -699,7 +699,7 @@ body
 	position: absolute;
 	color: black;
 	font-size: 36px;
-	font-family: Apple Chancery, cursive; 
+	font-family: "Apple Chancery", cursive; 
 	margin-top: 430px;
 	margin-left: 30px
 }
@@ -716,7 +716,7 @@ body
 
 .cccText p
 {
-	font-family: Helvetica;
+	font-family: "Helvetica";
 	margin-top: 510px;
 	margin-left: -315px;
 	margin-right: 1130px;
@@ -750,7 +750,7 @@ body
 
 .ftText p
 {
-	font-family: Helvetica;
+	font-family: "Helvetica";
 	margin-top: -150px;
 	margin-left: -220px;
 	margin-right: 750px;
@@ -760,7 +760,7 @@ body
 {
 	color: black;
 	font-size: 36px;
-	font-family: Apple Chancery, cursive; 
+	font-family: "Apple Chancery", cursive; 
 	margin-top: -270px;
 	margin-left: -155px
 }
@@ -778,7 +778,7 @@ body
 {
     color: black;
 	font-size: 36px;
-	font-family: Apple Chancery, cursive; 
+	font-family: "Apple Chancery", cursive; 
 	margin-top: -555px;
 	margin-left: 820px;
 }
@@ -794,7 +794,7 @@ body
 
 .naturelondonText p
 {
-	font-family: Helvetica;
+	font-family: "Helvetica";
 	margin-top: -450px;
 	margin-left: -190px;
 	margin-right: 410px;
@@ -820,7 +820,7 @@ body
 {
     color: black;
 	font-size: 36px;
-	font-family: Apple Chancery, cursive; 
+	font-family: "Apple Chancery", cursive; 
 	margin-left: -200px;
 	margin-top: -600px;
 }
@@ -835,7 +835,7 @@ body
 
 .NorthAssociation p
 {
-	font-family: Helvetica;
+	font-family: "Helvetica";
 	margin-top: -450px;
 	margin-left: -220px;
 	margin-right: 50px;
@@ -862,7 +862,7 @@ body
 {
     color: black;
 	font-size: 36px;
-	font-family: Apple Chancery, cursive; 
+	font-family: "Apple Chancery", cursive; 
 	margin-top: 250px;	
 	margin-left: -170px;
 }
@@ -878,9 +878,9 @@ body
 
 .OntarioStreams p
 {
-	font-family: Helvetica;
+	font-family: "Helvetica";
 	margin-top: 350px;
-	margin-left: -255px;
+	margin-left: -260px;
 	margin-right: 1000px;
 }
 
@@ -897,4 +897,48 @@ body
 	height: 120px;
 	margin-top: -390px;
 	margin-left: 650px;
+}
+
+
+.ontraiofederation
+{
+    color: black;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-top: -250px;	
+	margin-left: -200px;
+}
+
+
+.OntarioFederation p
+{
+    font-size: 20px;
+	color: black;
+	flex-direction: column;
+}
+
+
+.OntarioFederation p
+{
+	font-family: "Helvetica";
+	margin-left: -300px;
+	margin-right: 600px;
+	margin-top: -113px;
+}
+
+
+.tcImages
+{
+	width: 152px;
+	height: 152px;
+    margin-top: -900px;
+}
+
+.troutcanada
+{
+    color: black;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive; 
+	margin-left: 1000px;
+	margin-top: -230px
 }
