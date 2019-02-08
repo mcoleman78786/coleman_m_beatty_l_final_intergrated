@@ -1071,7 +1071,7 @@ display: flex;
 	display: flex;
 }
 
-.haltonConvervation
+.haltonConservation
 {
 	position: absolute;
 	width: 260px;
@@ -1086,7 +1086,7 @@ display: flex;
 	display: flex;
 }
 
-.hamiltonConvervation
+.hamiltonConservation
 {
 	position: absolute;
 	width: 233px;
@@ -1101,11 +1101,71 @@ display: flex;
 	display: flex;
 }
 
-.longpointConvervation
+.longpointConservation
 {
     position: absolute;
 	width: 314px;
 	height: 107px;
 	margin-top: 400px;
-	margin-left: 700px;
+	margin-left: 680px;
+}
+
+
+.Lakehead
+{
+	display: flex;
+}
+
+.lakeheadConservation
+{
+	position: absolute;
+	width: 319px;
+	height: 97px;
+	margin-top: 405px;
+	margin-left: 1050px;
+}
+
+
+.LowerThames
+{
+	display: flex;
+}
+
+.lowerthamesConservation
+{
+	position: absolute;
+	width: 249px;
+	height: 64px;
+	margin-top: 650px; 
+	margin-left: 80px;
+}
+
+
+.TorontoRegion
+{
+	display: flex;
+}
+
+.torontoConservation
+{
+	position: absolute;
+	width: 318px;
+	height: 96px;
+	margin-top: 640px;
+	margin-left: 360px;
+}
+
+
+.RideauValley
+{
+	display: flex;
+}
+
+.rideauConservation
+{
+    position: absolute;
+	width: 189px;
+	height: 94px;
+	margin-top: 650px;
+	margin-left: 750px;
 }
