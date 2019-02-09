@@ -1375,3 +1375,14 @@ label
 }
 
 /* End NewsLetters.html Page*/
+
+
+/* Start Contact.html Page*/
+
+.contactBody
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
