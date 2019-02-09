@@ -1542,3 +1542,127 @@ label
 	font-size: 22px;
 	font-family: "Helvetica";
 }
+
+
+.NewslettersProject
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.newslettersprojectBG
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 1400px;
+	height: 1545px;
+	background-color: #f9dcbd; 
+}
+
+
+/*Folder Tabs images*/
+
+.walleyeHatchery
+{
+	position: absolute;
+	width: 218px;
+	height: 58px;
+	margin-top: -58px;
+	margin-left: 100px; 
+}
+
+
+.whText
+{
+	position: absolute;
+	margin-top: -52px;
+	margin-left: 165px;
+	color: black;
+	font-size: 24px;
+	font-family: "Marker Felt", cursive;		
+}
+
+
+.streamRehabilitation
+{
+	position: absolute;
+	width: 218px;
+	height: 58px;
+	margin-top: -58px;
+	margin-left: 340px; 
+}
+
+
+.srText
+{
+	position: absolute;
+	margin-top: -52px;
+	margin-left: 385px;
+	color: black;
+	font-size: 24px;
+	font-family: "Marker Felt", cursive;	
+}
+
+
+.moreProjects
+{
+	position: absolute;
+	width: 218px;
+	height: 58px;
+	margin-top: -58px;
+	margin-left: 580px; 	
+}
+
+
+.mpText
+{
+	position: absolute;
+	margin-top: -52px;
+	margin-left: 650px;
+	color: black;
+	font-size: 24px;
+	font-family: "Marker Felt", cursive;		
+}
+
+
+.projectsMore
+{
+	position: absolute;
+	width: 218px;
+	height: 58px;
+	margin-top: -58px;
+	margin-left: 819px;	
+}
+
+
+.pmText
+{
+	position: absolute;
+	margin-top: -52px;
+	margin-left: 888px;
+	color: black;
+	font-size: 24px;
+	font-family: "Marker Felt", cursive;	
+}
+
+
+.pastprojects
+{
+	position: absolute;
+	width: 218px;
+	height: 58px;
+	margin-top: -58px;
+	margin-left: 1060px;	
+}
+
+
+.ppText
+{
+	position: absolute;
+	margin-top: -52px;
+	margin-left: 1125px;
+	color: black;
+	font-size: 24px;
+	font-family: "Marker Felt", cursive;	
+}
