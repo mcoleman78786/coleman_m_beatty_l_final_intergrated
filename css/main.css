@@ -1523,5 +1523,22 @@ label
 	color: white;
 	font-size: 36px;
 	font-family: "Apple Chancery", cursive;	
+}
 
+
+.traaText
+{
+	position: absolute;
+	width: 1190px;
+	height: 337px;
+	background-color: white;
+	margin-top: 200px;
+	margin-left: 120px;
+}
+
+.traaText p
+{
+	color: black;
+	font-size: 22px;
+	font-family: "Helvetica";
 }
