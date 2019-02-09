@@ -259,7 +259,7 @@ body
 }
 
 
-.memebershipText p
+.membershipText p
 {
 	position: absolute;
 	margin-top: -510px;
@@ -268,7 +268,7 @@ body
 }
 
 
-.memebershipText p
+.membershipText p
 {
 	font-size: 20px;
 	color: black;
@@ -935,6 +935,7 @@ display: flex;
 
 .tcImages
 {
+	position: absolute;
 	width: 152px;
 	height: 152px;
 	margin-left: 1100px;
@@ -947,7 +948,7 @@ display: flex;
     color: black;
 	font-size: 36px;
 	font-family: "Apple Chancery", cursive; 
-	margin-left: -139px;
+	margin-left: 1100px;
 	margin-top: -250px;
 }
 
@@ -1234,7 +1235,6 @@ display: flex;
 {
 	width: 1400px;
 	height: 572px;
-	background-color: white
 	margin-right: 20px;
 	margin-left: 20px;
 }
@@ -1260,3 +1260,233 @@ display: flex;
 
 
 /*Finished Links.html Page*/
+
+
+/*Started NewsLettter.html Page*/
+
+
+.NewsletterBackground
+{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.newsBackground
+{
+	width: 1400px;
+	height: 1563px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #464747;
+	border-radius:20px 20px 0px 0px;
+}
+
+
+.mailImages
+{
+	position: absolute;
+	width: 290px;
+	height: 290px;
+	margin-left: 560px;
+	margin-top: 70px;
+}
+
+
+.ourNewsLetters
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;
+	margin-left: 150px;
+	margin-top: 350px;
+}
+
+
+.newsletterForm 
+{
+	position: absolute;
+	margin-top: 550px;
+	margin-left: 560px;
+	display: flex;
+	flex-direction: column;
+}
+
+input
+{
+	margin-left: -35px;
+	padding: 15px;
+	width: 330px;
+	height: 40px;
+	font-size: 25px;
+}
+label
+{
+	font-size: 25px;
+	margin-left: -36px;
+	color: white;
+	margin-top: 15px;
+}
+
+#submit
+{
+	margin-top: 35px;
+	font-size: 8px bold;
+	padding-top: 1px;
+	border-radius: 15px;
+	height: 50px;
+	margin-left: -10px;
+    border: 1px solid white;
+    background-image: linear-gradient(#3f7d8b, white, #3f7d8b);
+}
+
+
+.formBackground
+{
+	position: absolute;
+	width: 1221px;
+	height: 400px;
+	margin-top: 999px;
+	margin-left: 110px;
+	background-color: white;
+}
+
+.NewsletterBackground p
+{
+    position: absolute;
+	color: black;
+	font-size: 24px;
+	font-family: "Helvetica";
+}
+
+
+.NewsletterBackground button
+{
+	position: absolute;
+	width: 399px;
+	height: 40px;
+	margin-top: 1348px;
+	margin-left: 900px;
+	border-radius: 15px;
+	border: 1px solid white;
+    background-image: linear-gradient(#3f7d8b, white, #3f7d8b);
+}
+
+/* End NewsLetters.html Page*/
+
+
+/* Start Contact.html Page*/
+
+.contactBody
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.contactUs
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;
+	margin-top: 120px;
+	margin-left: 200px;
+}
+
+
+.contactBackground
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 1400px;
+	height: 1072px;
+	background-color: #464747;
+	border-radius:20px 20px 0px 0px;
+
+}
+
+
+.contactForm 
+{
+	position: absolute;
+	margin-top: -850px;
+	margin-left: 70px;
+	display: flex;
+	flex-direction: column;
+}
+
+input
+{
+	margin-left: -35px;
+	padding: 15px;
+	width: 330px;
+	height: 40px;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+label
+{
+	font-size: 25px;
+	margin-left: -36px;
+	color: white;
+	margin-top: 30px;
+}
+
+
+.ContactInfo
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.aContact
+{
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;	
+	margin-left: 1000px;
+	margin-top: -800px;
+}
+
+.ContactInfo p
+{
+	position: absolute;
+	color: white;
+	font-size: 18px;
+	font-family: "Apple Chancery", cursive;	
+	margin-top: -750px;
+	margin-left: 1050px;
+}
+
+
+.gMeetings
+{
+	display: flex;
+	margin-left: auto;
+}
+
+.generalMeetings
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;
+	margin-top: -500px;
+	margin-left: 1000px;
+}
+
+
+.gMeetings p
+{
+	position: absolute;
+	color: white;
+	font-size: 18px;
+	font-family: "Apple Chancery", cursive;	
+	margin-top: -450px;
+	margin-left: 1010px;
+}
