@@ -1436,14 +1436,57 @@ label
 	margin-top: 30px;
 }
 
-/*#submit
+
+.ContactInfo
 {
-	margin-top: 35px;
-	font-size: 8px bold;
-	padding-top: 1px;
-	border-radius: 15px;
-	height: 50px;
-	margin-left: -10px;
-    border: 1px solid white;
-    background-image: linear-gradient(#3f7d8b, white, #3f7d8b);
-}*/
+	display: flex;
+	margin-left: auto;
+}
+
+
+.aContact
+{
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;	
+	margin-left: 1000px;
+	margin-top: -800px;
+}
+
+.ContactInfo p
+{
+	position: absolute;
+	color: white;
+	font-size: 18px;
+	font-family: "Apple Chancery", cursive;	
+	margin-top: -750px;
+	margin-left: 1050px;
+}
+
+
+.gMeetings
+{
+	display: flex;
+	margin-left: auto;
+}
+
+.generalMeetings
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;
+	margin-top: -500px;
+	margin-left: 1000px;
+}
+
+
+.gMeetings p
+{
+	position: absolute;
+	color: white;
+	font-size: 18px;
+	font-family: "Apple Chancery", cursive;	
+	margin-top: -450px;
+	margin-left: 1010px;
+}
