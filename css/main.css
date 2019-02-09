@@ -1490,3 +1490,269 @@ label
 	margin-top: -450px;
 	margin-left: 1010px;
 }
+
+/* End Contact.html Page*/
+
+
+/* Start Projects.html Page*/
+
+
+.projectsInfo
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.projectsBackground
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 1400px;
+	height: 644px;
+	background-color: #464747;
+	border-radius:20px 20px 0px 0px;
+}
+
+
+.traaProjects
+{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 140px;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;	
+}
+
+
+.traaText
+{
+	position: absolute;
+	width: 1190px;
+	height: 337px;
+	background-color: white;
+	margin-top: 200px;
+	margin-left: 120px;
+}
+
+.traaText p
+{
+	color: black;
+	font-size: 22px;
+	font-family: "Helvetica";
+}
+
+
+.NewslettersProject
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.newslettersprojectBG
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 1400px;
+	height: 1545px;
+	background-color: #e3c191; 
+}
+
+
+/*Folder Tabs images*/
+
+.walleyeHatchery
+{
+	position: absolute;
+	width: 218px;
+	height: 58px;
+	margin-top: -58px;
+	margin-left: 100px; 
+}
+
+
+.whText
+{
+	position: absolute;
+	margin-top: -52px;
+	margin-left: 165px;
+	color: black;
+	font-size: 24px;
+	font-family: "Marker Felt", cursive;		
+}
+
+
+.streamRehabilitation
+{
+	position: absolute;
+	width: 218px;
+	height: 58px;
+	margin-top: -58px;
+	margin-left: 340px; 
+}
+
+
+.srText
+{
+	position: absolute;
+	margin-top: -52px;
+	margin-left: 385px;
+	color: black;
+	font-size: 24px;
+	font-family: "Marker Felt", cursive;	
+}
+
+
+.moreProjects
+{
+	position: absolute;
+	width: 218px;
+	height: 58px;
+	margin-top: -58px;
+	margin-left: 580px; 	
+}
+
+
+.mpText
+{
+	position: absolute;
+	margin-top: -52px;
+	margin-left: 650px;
+	color: black;
+	font-size: 24px;
+	font-family: "Marker Felt", cursive;		
+}
+
+
+.projectsMore
+{
+	position: absolute;
+	width: 218px;
+	height: 58px;
+	margin-top: -58px;
+	margin-left: 819px;	
+}
+
+
+.pmText
+{
+	position: absolute;
+	margin-top: -52px;
+	margin-left: 888px;
+	color: black;
+	font-size: 24px;
+	font-family: "Marker Felt", cursive;	
+}
+
+
+.pastprojects
+{
+	position: absolute;
+	width: 218px;
+	height: 58px;
+	margin-top: -58px;
+	margin-left: 1060px;	
+}
+
+
+.ppText
+{
+	position: absolute;
+	margin-top: -52px;
+	margin-left: 1125px;
+	color: black;
+	font-size: 24px;
+	font-family: "Marker Felt", cursive;	
+}
+
+
+.conservationArea
+{
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 40px; 
+	width: 477px;
+	height: 387px;
+    border-bottom: 30px solid white;
+    border-right: 8px solid white;
+    border-left: 8px solid white;
+    border-top: 8px solid white;
+}
+
+
+.blackFishes
+{
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 545px; 
+	width: 477px;
+	height: 387px;
+    border-bottom: 30px solid white;
+    border-right: 8px solid white;
+    border-left: 8px solid white;
+    border-top: 8px solid white;	
+}
+
+
+.Guys
+{
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 1060px; 
+	width: 477px;
+	height: 387px;
+    border-bottom: 30px solid white;
+    border-right: 8px solid white;
+    border-left: 8px solid white;
+    border-top: 8px solid white;	
+}
+
+
+/* Start Text box and header title*/
+
+
+
+.traawh 
+{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 850px;
+	color: white;
+	font-size: 36px;
+	font-family: "Marker Felt", cursive;
+	text-shadow: 2px 2px black;	
+}
+
+.traaBG
+{
+	position: absolute;
+	width: 609px;
+	height: 88px;
+	margin-top: 70px;
+	margin-left: 710px;
+	background-color: #01454a;
+}
+
+
+.areaTexts
+{
+	background-color: white;
+	position: absolute;
+	display: flex;
+	margin-left: auto;
+	width: 659px;
+	height: 1200px;
+	margin-left: 685px;
+	margin-top: 190px;
+	border: 0.5px solid black;
+}
+
+.areaTexts p
+{
+    position: absolute;
+	color: black;
+	font-size: 18px;
+	font-family: "Helvetica";
+}
