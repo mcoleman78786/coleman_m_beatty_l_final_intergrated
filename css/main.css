@@ -1276,11 +1276,11 @@ display: flex;
 .newsBackground
 {
 	width: 1400px;
-	height: 1263px;
+	height: 1563px;
 	margin-left: 20px;
 	margin-right: 20px;
 	background-color: #464747;
-	border-radius:20px 20px 20px 20px;
+	border-radius:20px 20px 0px 0px;
 }
 
 
@@ -1308,7 +1308,7 @@ display: flex;
 .newsletterForm 
 {
 	position: absolute;
-	margin-top: 600px;
+	margin-top: 550px;
 	margin-left: 560px;
 	display: flex;
 	flex-direction: column;
@@ -1325,6 +1325,9 @@ input
 label
 {
 	font-size: 25px;
+	margin-left: -36px;
+	color: white;
+	margin-top: 15px;
 }
 
 #submit
@@ -1332,12 +1335,41 @@ label
 	margin-top: 35px;
 	font-size: 8px bold;
 	padding-top: 1px;
-	border-radius: 30px;
-	height: 80px;
+	border-radius: 15px;
+	height: 50px;
 	margin-left: -10px;
+    border: 1px solid white;
     background-image: linear-gradient(#3f7d8b, white, #3f7d8b);
 }
 
 
 .formBackground
-{}
+{
+	position: absolute;
+	width: 1221px;
+	height: 400px;
+	margin-top: 999px;
+	margin-left: 110px;
+	background-color: white;
+}
+
+.NewsletterBackground p
+{
+    position: absolute;
+	color: black;
+	font-size: 24px;
+	font-family: "Helvetica";
+}
+
+
+.NewsletterBackground button
+{
+	position: absolute;
+	width: 399px;
+	height: 40px;
+	margin-top: 1348px;
+	margin-left: 900px;
+	border-radius: 15px;
+	border: 1px solid white;
+    background-image: linear-gradient(#3f7d8b, white, #3f7d8b);
+}
