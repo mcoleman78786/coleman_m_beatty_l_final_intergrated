@@ -1713,12 +1713,46 @@ label
 /* Start Text box and header title*/
 
 
-.traawh
+
+.traawh 
 {
 	position: absolute;
 	margin-top: 100px;
 	margin-left: 850px;
-	color: black;
+	color: white;
 	font-size: 36px;
-	font-family: "Marker Felt", cursive;		
+	font-family: "Marker Felt", cursive;
+	text-shadow: 2px 2px black;	
+}
+
+.traaBG
+{
+	position: absolute;
+	width: 609px;
+	height: 88px;
+	margin-top: 70px;
+	margin-left: 710px;
+	background-color: #01454a;
+}
+
+
+.areaTexts
+{
+	background-color: white;
+	position: absolute;
+	display: flex;
+	margin-left: auto;
+	width: 659px;
+	height: 1200px;
+	margin-left: 685px;
+	margin-top: 190px;
+	border: 0.5px solid black;
+}
+
+.areaTexts p
+{
+    position: absolute;
+	color: black;
+	font-size: 18px;
+	font-family: "Helvetica";
 }
