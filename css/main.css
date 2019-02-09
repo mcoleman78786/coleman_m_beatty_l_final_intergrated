@@ -1680,3 +1680,45 @@ label
     border-left: 8px solid white;
     border-top: 8px solid white;
 }
+
+
+.blackFishes
+{
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 545px; 
+	width: 477px;
+	height: 387px;
+    border-bottom: 30px solid white;
+    border-right: 8px solid white;
+    border-left: 8px solid white;
+    border-top: 8px solid white;	
+}
+
+
+.Guys
+{
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 1060px; 
+	width: 477px;
+	height: 387px;
+    border-bottom: 30px solid white;
+    border-right: 8px solid white;
+    border-left: 8px solid white;
+    border-top: 8px solid white;	
+}
+
+
+/* Start Text box and header title*/
+
+
+.traawh
+{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 850px;
+	color: black;
+	font-size: 36px;
+	font-family: "Marker Felt", cursive;		
+}
