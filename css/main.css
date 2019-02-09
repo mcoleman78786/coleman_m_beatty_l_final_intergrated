@@ -1668,7 +1668,15 @@ label
 }
 
 
-.sticker
+.conservationArea
 {
-	
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 40px; 
+	width: 477px;
+	height: 387px;
+    border-bottom: 30px solid white;
+    border-right: 8px solid white;
+    border-left: 8px solid white;
+    border-top: 8px solid white;
 }
