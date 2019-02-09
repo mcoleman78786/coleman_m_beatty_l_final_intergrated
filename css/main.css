@@ -1557,7 +1557,7 @@ label
 	margin-right: 20px;
 	width: 1400px;
 	height: 1545px;
-	background-color: #f9dcbd; 
+	background-color: #e3c191; 
 }
 
 
@@ -1665,4 +1665,10 @@ label
 	color: black;
 	font-size: 24px;
 	font-family: "Marker Felt", cursive;	
+}
+
+
+.sticker
+{
+	
 }
