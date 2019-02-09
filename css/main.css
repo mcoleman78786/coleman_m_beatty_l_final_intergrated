@@ -1495,3 +1495,33 @@ label
 
 
 /* Start Projects.html Page*/
+
+
+.projectsInfo
+{
+	display: flex;
+	margin-left: auto;
+}
+
+
+.projectsBackground
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 1400px;
+	height: 644px;
+	background-color: #464747;
+	border-radius:20px 20px 0px 0px;
+}
+
+
+.traaProjects
+{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 140px;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;	
+
+}
