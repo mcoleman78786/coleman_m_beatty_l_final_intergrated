@@ -34,4 +34,26 @@
 
 
 <section class="contactBody"></section>
-<h2 class="contactUs"></h2>
+<h2 class="contactUs">Contact Us</h2>
+<div class="contactBackground"></div>
+<h3></h3>
+<h3></h3>
+
+<form class="contactForm" action="form.php" method="post">
+        <label for="email">Email</label>
+        <input type="text" id="cEmail" name="email" placeholder="Your Email">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="cfullName" name="fullname" placeholder="Your Full Name">
+        <label for="csubject">Subject</label>
+        <input type="text" id="cSubject" name="subject" placeholder="Subject">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="message">Message...</label>
+        <textarea id="cMessage" name="message" placeholder="Write something..." style="height:170px"></textarea>
+        <input id="submit" type="submit" value="Submit">
+</form>
+
