@@ -1789,7 +1789,7 @@ label
     margin-left: 20px;
 	margin-right: 20px;
 	width: 1400px;
-	height: 3328px;
+	height: 4328px;
 	background-color: #464747;
 	border-radius: 20px;
 }
@@ -1874,4 +1874,77 @@ label
 	margin-top: 1880px;
 	margin-left: 100px;
 	border: 1px solid white;
+}
+
+
+.headshot1
+{
+	position: absolute;
+	margin-top: 2600px;
+	margin-left: 100px;
+	border: 1px solid white;
+}
+
+.shot1Title
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;
+	margin-top: 2600px;
+	margin-left: 430px;
+	text-decoration: underline;
+}
+
+
+.shot1Title p
+{
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	font-family: "Apple Chancery", cursive;	
+}
+
+
+.headshot2
+{
+	position: absolute;
+	margin-top: 3000px;
+	margin-left: 100px;
+	border: 1px solid white;
+	width: 300px;
+	height: 300px;	
+}
+
+
+
+.headshot2Title
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;
+	margin-top: 3000px;
+	margin-left: 430px;
+	text-decoration: underline;
+}
+
+
+.headshot2Title p
+{
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	font-family: "Apple Chancery", cursive;	
+}
+
+
+.headshot3
+{
+	position: absolute;
+	margin-top: 2600px;
+	margin-left: 800px;
+	width: 300px;
+	height: 300px;
+	border: 1px solid white;	
 }
