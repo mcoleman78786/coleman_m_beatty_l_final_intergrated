@@ -1413,7 +1413,7 @@ label
 {
 	position: absolute;
 	margin-top: -850px;
-	margin-left: 70px;
+	margin-left: 300px;
 	display: flex;
 	flex-direction: column;
 }
@@ -1449,7 +1449,7 @@ label
 	color: white;
 	font-size: 36px;
 	font-family: "Apple Chancery", cursive;	
-	margin-left: 1000px;
+	margin-left: 900px;
 	margin-top: -800px;
 }
 
@@ -1460,7 +1460,7 @@ label
 	font-size: 18px;
 	font-family: "Apple Chancery", cursive;	
 	margin-top: -750px;
-	margin-left: 1050px;
+	margin-left: 950px;
 }
 
 
@@ -1477,7 +1477,7 @@ label
 	font-size: 36px;
 	font-family: "Apple Chancery", cursive;
 	margin-top: -500px;
-	margin-left: 1000px;
+	margin-left: 900px;
 }
 
 
@@ -1488,7 +1488,7 @@ label
 	font-size: 18px;
 	font-family: "Apple Chancery", cursive;	
 	margin-top: -450px;
-	margin-left: 1010px;
+	margin-left: 910px;
 }
 
 /* End Contact.html Page*/
