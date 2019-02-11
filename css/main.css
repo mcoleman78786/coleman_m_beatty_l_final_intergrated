@@ -893,7 +893,7 @@ body
 
 .ofImage
 {
-	width: 150px;
+	width: 300px;
 	height: 120px;
 	margin-top: -390px;
 	margin-left: 650px;
@@ -1789,7 +1789,7 @@ label
     margin-left: 20px;
 	margin-right: 20px;
 	width: 1400px;
-	height: 4328px;
+	height: 3800px;
 	background-color: #464747;
 	border-radius: 20px;
 }
@@ -1893,16 +1893,6 @@ label
 	font-family: "Apple Chancery", cursive;
 	margin-top: 2600px;
 	margin-left: 430px;
-	text-decoration: underline;
-}
-
-
-.shot1Title p
-{
-	position: absolute;
-	color: white;
-	font-size: 25px;
-	font-family: "Apple Chancery", cursive;	
 }
 
 
@@ -1926,16 +1916,6 @@ label
 	font-family: "Apple Chancery", cursive;
 	margin-top: 3000px;
 	margin-left: 430px;
-	text-decoration: underline;
-}
-
-
-.headshot2Title p
-{
-	position: absolute;
-	color: white;
-	font-size: 25px;
-	font-family: "Apple Chancery", cursive;	
 }
 
 
@@ -1947,4 +1927,59 @@ label
 	width: 300px;
 	height: 300px;
 	border: 1px solid white;	
+}
+
+
+.headshot3Title
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;
+	margin-top: 2600px;
+	margin-left: 1130px;
+}
+
+
+.headshot4
+{
+	position: absolute;
+	margin-top: 3000px;
+	margin-left: 800px;
+	width: 300px;
+	height: 300px;
+	border: 1px solid white;	
+}
+
+
+.headshot4Title
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;
+	margin-top: 3000px;
+	margin-left: 1130px;
+}	
+
+
+.headshot5
+{
+	position: absolute;
+	margin-top: 3420px;
+	margin-left: 100px;
+	border: 1px solid white;
+	width: 300px;
+	height: 300px;	
+}
+
+
+.headshot5Title
+{
+	position: absolute;
+	color: white;
+	font-size: 36px;
+	font-family: "Apple Chancery", cursive;
+	margin-top: 3420px;
+	margin-left: 430px;	
 }
