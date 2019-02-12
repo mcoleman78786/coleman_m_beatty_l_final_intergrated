@@ -9,16 +9,12 @@
 </head>
 
 <body>
-	<section class="topBar">
-     <h1 class="hidden">Top Bar</h1>   
-    </section>
-
-    <main class="mainContainer">
-        <h2 class="hidden"> Main Header</h2>
-   	<nav class="mainNav">
-        <h1 class="hidden">Main Nav</h1>
-        <img class="headerRiver" src="images/headerRiver.jpg" alt="Header River">
-        <img class="logo" src="images/traa_logo.png" alt="Logo">
+<div class="container">
+          <header id="headerBck">
+            <object data="images/traa_logo_ellipse.svg" class="LogoAnimation" height="200" width="200" type="image/svg+xml"></object>
+            <h1 class="hidden">Thames River Anglers Association</h1>
+    <nav class="topNav">
+        <h2 class="hidden">Top Navigation</h2>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -27,106 +23,79 @@
             <li><a href="newsletters.html">Newsletters</a></li>
             <li><a href="links.html">Links</a></li>
         </ul>
-
-        <div class="navBackground"></div>
     </nav>
-</main>
-
-<section class="NewsletterBackground">
-    <h2 class="ourNewsLetters">
-Get our Newsletters</h2>
-<div class="newsBackground"></div>
-<img class="mailImages" src="images/banner_newletter2.png" alt="MailImages">
+</header>
 
 
-<form class="newsletterForm" action="form.php" method="post">
-   <label for="email">Email</label>
-  <input type="text" id="email" name="Email" size="30" placeholder="thames.river@email.ca">
-  <label for="name">Full Name</label>
-  <input type="text" name="FullName" placeholder="John Doe">
-  <input id="submit" type="submit" value="SUBMIT">
-</form>
+    <section class="MailInfo">
+    <div id="MailInfomation">
+    <img class="mailImages" src="images/banner_newletter2.png" alt="MailImages">
+    <h2>Get our Newsletters</h2>
+    </div>
 
-<div class="formBackground"><p>The TRAA Newsletters have evolved over the years.<br>
-<br>
-The first newsletters were banged out manually on a typewriter and then copied about 100 times for distribution. These initial efforts were simple (no pictures or colour!) but they did the job.<br>
-<br>
-The latest versions are electronic, emailed to members and other TRAA friends. They feature nice formatting, pictures and yes, colour!<br>
-<br>
-The greatest challenge over the years has been getting editions published on time (or at all!). Such is life within a volunteer organization like the TRAA; you have to focus your energies on where they are most effective and a newsletter falls further down that priority list.</p></div>
 
-<button type="button">
-Click here to see our past Newsletters!</button>
-<a href="projects.html"></a>
+    <form id="newSform" action="form.php" method="post">
+      <label class="newsLabel" for="email">Email</label>
+      <input type="text" class="newsInput" id="email" name="Email" size="30" placeholder="thames.river@email.ca">
+      <label class="newsLabel" for="name">Full Name</label>
+      <input class="newsInput" type="text" name="FullName" placeholder="John Doe">
+      <a href="#"><input id="newsubmit" type="submit" value="Submit"></a>
+    </form>
+
+
+    <div class="newsletterInfo"><p><span>The TRAA Newsletters have evolved over the years.</span>
+    <span>
+    The first newsletters were banged out manually on a typewriter and then copied about 100 times for distribution. These initial efforts were simple (no pictures or colour!) but they did the job.</span>
+    <span>
+    The latest versions are electronic, emailed to members and other TRAA friends. They feature nice formatting, pictures and yes, colour!</span>
+
+    <span>
+    The greatest challenge over the years has been getting editions published on time (or at all!). Such is life within a volunteer organization like the TRAA; you have to focus your energies on where they are most effective and a newsletter falls further down that priority list.</span></p></div>
+
+    <div id="newSLetterbtn"><a href="projects.html">Click Here for Past Newsletters</a>
+</div>
 </section>
 
-<footer class="mainFooter">
-    <h2 class="hidden"> Main Footer</h2>
-    <div class="footer"></div> 
-    <img class="footerLogo" src="images/traa_logo.png" alt="Footerlogo">
-    <div class="footertext"><p>Contact Us By<br>
-
-Email: TRAA@email.ca<br>
-Phone: 226-234-1234<br>
-or 
-<br>
-Snail Mail:
-Thames River
-Anglers Association
-2202 Coronation Drive
-London, Ontario
-N6G 0B9</p></div>
-
-    <ul>
+<footer id="footer">
+    <div id="footerContainer">
+    <object data="images/traa_logo_ellipse.svg" id="logoFooter" height="175" width="175" type="image/svg+xml"></object>
+    <p id="contactPara">Contact Us By
+    Email: TRAA@email.ca
+    Phone: 226-234-1234
+    <span>
+        or
+    Snail Mail:
+    Thames River
+    Anglers Association
+    2202 Coronation Drive
+    London, Ontario
+    N6G 0B9</span></p>
+    <nav class="botNav">
+        <h2 class="hidden">Footer Navigation</h2>
+        <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="newsletters.html">Newsletters</a></li>
             <li><a href="links.html">Links</a></li>
-    </ul>
+        </ul>
+    </nav>
+    <div id="socialIcons">
+        <a href="https://www.facebook.com/groups/4TRAA/about/"><img src="images/social_Facebook.png" height="50" width="50" class="socialSize" alt="Facebook"></a>
 
-    <div class="copyRight"><p>©Copyright Thames River Anglers Association 2019</p></div>
+        <a href="https://twitter.com/"><img src="images/social_Twitter.png" height="50" width="50" class="socialSize" alt="Twitter"></a>
 
+        <a href="https://ca.linkedin.com/company/vimmo"><img src="images/social_Vimmo.png" height="50" width="50" class="socialSize" alt="Vimmo"></a>
 
-    <div class="icons">
-        <h2 class="hidden">Social Media</h2>
-        <ul>
-            <li id="facebook">
-                <a href="https://www.facebook.com/groups/4TRAA/about/">
-                <img class="facebookIcon" src="images/social_Facebook.png" alt="Facebook">
-                </a>
-                </li>
+        <a href="https://www.youtube.com/channel/UCSuwqQ-HzLQw-gylALz5YkA"><img src="images/social_YouTube.png" height="50" width="50" class="socialSize" alt="Youtube"></a>
 
-            <li id="twitter">
-                <a href="https://twitter.com/">
-                <img class="twitterIcon" src="images/social_Twitter.png" alt="Twitter">
-                </a>
-                </li>
-
-            <li id="vimmo">
-                <a href="https://Vimmo.com/">
-                <img class="vimmoIcon" src="images/social_Vimmo.png" alt="Vimmo">
-                </a>
-                </li>
-
-
-            <li id="youtbe">
-                <a href="https://Youtube.com/">
-                <img class="youtubeIcon" src="images/social_Youtube.png" alt="Youtube">
-                </a>
-                </li>
-
-
-                <li id="instagram">
-                <a href="https://instagra.com/">
-                <img class="instaGram" src="images/social_Instagram.png" alt="Instagram">
-                </a>
-                </li>
-        </ul> 
+        <a href="https://www.instagram.com/"><img src="images/social_instagram.png" height="50" width="50" class="socialSize" alt="Instagram"></a>
+    </div>
+    <p id="copyright">©Copyright Thames River Anglers Association 2019</p>
     </div>
 </footer>
-
-  <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
+</div>
 </body>
 </html>

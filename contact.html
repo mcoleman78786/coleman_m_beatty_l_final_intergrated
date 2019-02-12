@@ -9,16 +9,12 @@
 </head>
 
 <body>
-	<section class="topBar">
-     <h1 class="hidden">Top Bar</h1>   
-    </section>
-
-    <main class="mainContainer">
-        <h2 class="hidden"> Main Header</h2>
-   	<nav class="mainNav">
-        <h1 class="hidden">Main Nav</h1>
-        <img class="headerRiver" src="images/headerRiver.jpg" alt="Header River">
-        <img class="logo" src="images/traa_logo.png" alt="Logo">
+       <div class="container">
+          <header id="headerBck">
+            <object data="images/traa_logo_ellipse.svg" class="LogoAnimation" height="200" width="200" type="image/svg+xml"></object>
+            <h1 class="hidden">Thames River Anglers Association</h1>
+    <nav class="topNav">
+            <h2 class="hidden">Top Navigation</h2>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -27,117 +23,77 @@
             <li><a href="newsletters.html">Newsletters</a></li>
             <li><a href="links.html">Links</a></li>
         </ul>
-
-        <div class="navBackground"></div>
     </nav>
-</main>
+</header>
+<section id="contactFormCont">
+<h2>Contact Us</h2>
 
+<form id="contactForm" action="form.php" method="post">
+                    <label for="name">Full Name</label>
+                    <input type="text" required id="paymentName" name="fullName" size="40" placeholder="John Doe">
+                    
+                    <label for="email">Email</label>
+                    <input  type="text" required id="email" size="40" placeholder="john.doe@gmail.com">
+                    
+                    
+                    <label for="Phone">Subject</label>
+                    <input id="paymentDonation" type="text" size="40" placeholder="Subject">
+                    
+                    <label for="Comments">Comments</label>
+                    <textarea id="paymentMsg" name="comment" required cols="50" rows="8" placeholder="Message..."></textarea>
+                   
+                    <div id="paymentBtn"><a href="contact.html">Submit</a></div>
+            </form>
+        </section>
+        <div id="contactText">
+        <p id="contactTextPara1">
 
-<section class="contactBody"></section>
-<h2 class="contactUs">Contact Us</h2>
-<div class="contactBackground"></div>
-
-<form class="contactForm" action="form.php" method="post">
-        <label for="email">Email</label>
-        <input type="text" id="cEmail" name="email" placeholder="Your Email">
-        <label for="fullname">Full Name</label>
-        <input type="text" id="cfullName" name="fullname" placeholder="Your Full Name">
-        <label for="csubject">Subject</label>
-        <input type="text" id="cSubject" name="subject" placeholder="Subject">
-
-        <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-        <label for="message">Message...</label>
-        <textarea id="cMessage" name="message" placeholder="Write something..." style="height:170px"></textarea>
-        <input id="submit" type="submit" value="Submit">
-</form>
-
-<section class="ContactInfo">
-<h2 class="aContact">Alternitive Contact</h2>
-<p>Thames River<br>
-Anglers Association<br>
-2202 Coronation Drive<br>
-London, Ontario<br>
-N6G 0B9</p>
-</section>
-<section class="gMeetings">
-<h2 class="generalMeetings">Attend General Meetings</h2>
-<p>We meet at the Western Ontario Fish & Game <br>Protective Association clubhouse at<br>
-790 Southdale Road,<br>
-London Ontario.</p>
-</section>
-
-
-<footer class="mainFooter">
-    <h2 class="hidden"> Main Footer</h2>
-    <div class="footer"></div> 
-    <img class="footerLogo" src="images/traa_logo.png" alt="Footerlogo">
-    <div class="footertext"><p>Contact Us By<br>
-
-Email: TRAA@email.ca<br>
-Phone: 226-234-1234<br>
-or 
-<br>
-Snail Mail:
-Thames River
-Anglers Association
-2202 Coronation Drive
-London, Ontario
-N6G 0B9</p></div>
-
-    <ul>
+            <span>Alternative Contact</span> Thames River Anglers Association 2202 Coronation Drive London Ontario N6G 0B9 
+</p>
+<p>
+    <span id="contactTextPara2">Attend General Meetings</span> We meet at the Western Ontario Fish & Game Protective Association clubhouse at 790 Southdale Road, London Ontario.
+</p>
+</div>
+<footer id="footer">
+    <div id="footerContainer">
+    <object data="images/traa_logo_ellipse.svg" id="logoFooter" height="175" width="175" type="image/svg+xml"></object>
+    <p id="contactPara">Contact Us By
+    Email: TRAA@email.ca
+    Phone: 226-234-1234
+    <span>
+        or
+    Snail Mail:
+    Thames River
+    Anglers Association
+    2202 Coronation Drive
+    London, Ontario
+    N6G 0B9</span></p>
+    <nav class="botNav">
+        <h2 class="hidden">Footer Navigation</h2>
+        <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="newsletters.html">Newsletters</a></li>
             <li><a href="links.html">Links</a></li>
-    </ul>
+        </ul>
+    </nav>
+    <div id="socialIcons">
+        <a href="https://www.facebook.com/groups/4TRAA/about/"><img src="images/social_Facebook.png" height="50" width="50" class="socialSize" alt="Facebook"></a>
 
-    <div class="copyRight"><p>©Copyright Thames River Anglers Association 2019</p></div>
+        <a href="https://twitter.com/"><img src="images/social_Twitter.png" height="50" width="50" class="socialSize" alt="Twitter"></a>
 
+        <a href="https://ca.linkedin.com/company/vimmo"><img src="images/social_Vimmo.png" height="50" width="50" class="socialSize" alt="Vimmo"></a>
 
-    <div class="icons">
-        <h2 class="hidden">Social Media</h2>
-        <ul>
-            <li id="facebook">
-                <a href="https://www.facebook.com/groups/4TRAA/about/">
-                <img class="facebookIcon" src="images/social_Facebook.png" alt="Facebook">
-                </a>
-                </li>
+        <a href="https://www.youtube.com/channel/UCSuwqQ-HzLQw-gylALz5YkA"><img src="images/social_YouTube.png" height="50" width="50" class="socialSize" alt="Youtube"></a>
 
-            <li id="twitter">
-                <a href="https://twitter.com/">
-                <img class="twitterIcon" src="images/social_Twitter.png" alt="Twitter">
-                </a>
-                </li>
-
-            <li id="vimmo">
-                <a href="https://Vimmo.com/">
-                <img class="vimmoIcon" src="images/social_Vimmo.png" alt="Vimmo">
-                </a>
-                </li>
-
-
-            <li id="youtbe">
-                <a href="https://Youtube.com/">
-                <img class="youtubeIcon" src="images/social_Youtube.png" alt="Youtube">
-                </a>
-                </li>
-
-
-                <li id="instagram">
-                <a href="https://instagra.com/">
-                <img class="instaGram" src="images/social_Instagram.png" alt="Instagram">
-                </a>
-                </li>
-        </ul> 
+        <a href="https://www.instagram.com/"><img src="images/social_instagram.png" height="50" width="50" class="socialSize" alt="Instagram"></a>
+    </div>
+    <p id="copyright">©Copyright Thames River Anglers Association 2019</p>
     </div>
 </footer>
-
-  <script src="js/main.js"></script>
+</div>
+    <script src="js/main.js"></script>
 </body>
 </html>
