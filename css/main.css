@@ -1021,6 +1021,7 @@ padding: 50px 50px 0 20px;
 	font-size: 18px;
 }
 
+
 #contactTextPara1 span
 {
 	font-family: 'Apple Chancery';
@@ -1028,6 +1029,7 @@ padding: 50px 50px 0 20px;
 	font-size: 24px;
 	padding-bottom: 20px;
 	margin-left: 48px;
+	margin-top: -200px;
 }
 
 #contactTextPara2
@@ -1047,6 +1049,7 @@ padding: 50px 50px 0 20px;
 	height: 40px;
 	border: 1px solid black;
 }
+
 
 
 #paymentMsg
