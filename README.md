@@ -1,5 +1,5 @@
 # Thames River Angler Association Redesign
-Created by Malory Coleman and Lucas Beatty
+Created by Mallory Coleman and Lucas Beatty
 
 ## Getting Started
 
