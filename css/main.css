@@ -1040,12 +1040,19 @@ padding: 50px 50px 0 20px;
 	padding-bottom: 15px;
 }
 
+
+#paymentBtn a
+{
+	color: white;
+	font-size: 26px;
+	margin-left: 10px;
+	font-family: "Apple Chancery"
+}
 #paymentBtn
 {
-	width: 70px;
 	display: flex;
 	margin: 90px auto 50px;
-	padding: 15px 120px 15px 90px;
+	padding: 25px 120px 15px 90px;
 	background: #1e5799;
 	background: -moz-linear-gradient(top, #1e5799 0%, #207cca 33%, #2989d8 72%, #1e5799 100%);
 	background: -webkit-linear-gradient(top, #1e5799 0%,#207cca 33%,#2989d8 72%,#1e5799 100%);
@@ -1053,7 +1060,6 @@ padding: 50px 50px 0 20px;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1e5799',GradientType=0 );
 	border: 2px solid white;
 	border-radius: 10px;
-	color: white;
 }
 #contactPara
 {
