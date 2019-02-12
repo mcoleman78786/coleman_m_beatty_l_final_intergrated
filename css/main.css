@@ -1038,6 +1038,10 @@ padding: 50px 50px 0 20px;
 #contactForm input 
 {
 	padding-bottom: 15px;
+	border-radius: 5px;
+	width: 300px;
+	height: 40px;
+	border: 1px solid black;
 }
 
 
